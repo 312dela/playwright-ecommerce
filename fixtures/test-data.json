@@ -1,0 +1,22 @@
+{
+  "user": {
+    "firstName": "account",
+    "lastName": "name",
+    "phone": "1234567890",
+    "caseVariants" : [
+        {"email": "email1@yopmail.com"},
+        {"email": "Email1@yopmail.com"}
+    ],
+    "userEmail": "email1@yopmail.com",
+    "otherUserEmail": "email2@yopmail.com",
+    "password": "Test12345"
+  },
+  "product": {
+    "product1": "ZARA COAT 3",
+    "product2": "IPHONE 13 PRO"
+  },
+  "location": {
+    "insertLocation": "Indo",
+    "selectLocation": "Indonesia"
+  }
+}
