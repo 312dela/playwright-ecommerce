@@ -1,1 +1,87 @@
-{"uid":"4b4757e66a1912dae1a509f688f20b0f","name":"categories","children":[{"name":"Product defects","children":[{"name":"Error: Timed out 5000ms waiting for expect(locator).toHaveText(expected)\n\nLocator: locator('#toast-container')\nExpected string: \"Login Successfully\"\nReceived string: \"\"\nCall log:\n  - Expect \"toHaveText\" with timeout 5000ms\n  - waiting for locator('#toast-container')\n    3 × locator resolved to <div id=\"toast-container\" class=\"toast-bottom-right toast-container\">…</div>\n      - unexpected value \" Incorrect email or password. \"\n    4 × locator resolved to <div id=\"toast-container\" class=\"toast-bottom-right toast-container\"></div>\n      - unexpected value \"\"\n","children":[{"name":"Login using registered email Email1@yopmail.com","uid":"172d46c84927ac0","parentUid":"147521fc6573908f6faf760c8b7b2e48","status":"failed","time":{"start":1751603557784,"stop":1751603566021,"duration":8237},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":2,"retriesStatusChange":false,"parameters":["chromium"],"tags":["yopmail.com"]}],"uid":"147521fc6573908f6faf760c8b7b2e48"},{"name":"Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"email2@yopmail.com\"\nReceived: \"email1@yopmail.com\"","children":[{"name":"Create order with different email from the respective account","uid":"dc870a8fc6494138","parentUid":"0579ddfcbaa2c2f996e06597f96f38fd","status":"failed","time":{"start":1751603557785,"stop":1751603565898,"duration":8113},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":2,"retriesStatusChange":true,"parameters":["chromium"],"tags":[]}],"uid":"0579ddfcbaa2c2f996e06597f96f38fd"},{"name":"Error: Timed out 5000ms waiting for expect(locator).toContainText(expected)\n\nLocator: locator('#toast-container')\nExpected string: \"already\"\nReceived string: \"\"\nCall log:\n  - Expect \"toContainText\" with timeout 5000ms\n  - waiting for locator('#toast-container')\n    2 × locator resolved to <div id=\"toast-container\" class=\"toast-bottom-right toast-container\">…</div>\n      - unexpected value \" Registered Successfully \"\n    4 × locator resolved to <div id=\"toast-container\" class=\"toast-bottom-right toast-container\"></div>\n      - unexpected value \"\"\n","children":[{"name":"Create account using uppercase - registered email","uid":"39abbed5650f777d","parentUid":"d5151c14489ef25ecf8c625b00b25da1","status":"failed","time":{"start":1751603571111,"stop":1751603578224,"duration":7113},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":2,"retriesStatusChange":false,"parameters":["chromium"],"tags":[]}],"uid":"d5151c14489ef25ecf8c625b00b25da1"}],"uid":"8fb3a91ba5aaf9de24cc8a92edc82b5d"}]}
+{
+  "uid": "4b4757e66a1912dae1a509f688f20b0f",
+  "name": "categories",
+  "children": [
+    {
+      "name": "Product defects",
+      "children": [
+        {
+          "name": "Error: Timed out 5000ms waiting for expect(locator).toHaveText(expected)\n\nLocator: locator('#toast-container')\nExpected string: \"Login Successfully\"\nReceived string: \"\"\nCall log:\n  - Expect \"toHaveText\" with timeout 5000ms\n  - waiting for locator('#toast-container')\n    3 × locator resolved to <div id=\"toast-container\" class=\"toast-bottom-right toast-container\">…</div>\n      - unexpected value \" Incorrect email or password. \"\n    4 × locator resolved to <div id=\"toast-container\" class=\"toast-bottom-right toast-container\"></div>\n      - unexpected value \"\"\n",
+          "children": [
+            {
+              "name": "Login using registered email Email1@yopmail.com",
+              "uid": "172d46c84927ac0",
+              "parentUid": "147521fc6573908f6faf760c8b7b2e48",
+              "status": "failed",
+              "time": {
+                "start": 1751603557784,
+                "stop": 1751603566021,
+                "duration": 8237
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 2,
+              "retriesStatusChange": false,
+              "parameters": ["chromium"],
+              "tags": ["yopmail.com"]
+            }
+          ],
+          "uid": "147521fc6573908f6faf760c8b7b2e48"
+        },
+        {
+          "name": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"email2@yopmail.com\"\nReceived: \"email1@yopmail.com\"",
+          "children": [
+            {
+              "name": "Create order with different email from the respective account",
+              "uid": "dc870a8fc6494138",
+              "parentUid": "0579ddfcbaa2c2f996e06597f96f38fd",
+              "status": "failed",
+              "time": {
+                "start": 1751603557785,
+                "stop": 1751603565898,
+                "duration": 8113
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 2,
+              "retriesStatusChange": true,
+              "parameters": ["chromium"],
+              "tags": []
+            }
+          ],
+          "uid": "0579ddfcbaa2c2f996e06597f96f38fd"
+        },
+        {
+          "name": "Error: Timed out 5000ms waiting for expect(locator).toContainText(expected)\n\nLocator: locator('#toast-container')\nExpected string: \"already\"\nReceived string: \"\"\nCall log:\n  - Expect \"toContainText\" with timeout 5000ms\n  - waiting for locator('#toast-container')\n    2 × locator resolved to <div id=\"toast-container\" class=\"toast-bottom-right toast-container\">…</div>\n      - unexpected value \" Registered Successfully \"\n    4 × locator resolved to <div id=\"toast-container\" class=\"toast-bottom-right toast-container\"></div>\n      - unexpected value \"\"\n",
+          "children": [
+            {
+              "name": "Create account using uppercase - registered email",
+              "uid": "39abbed5650f777d",
+              "parentUid": "d5151c14489ef25ecf8c625b00b25da1",
+              "status": "failed",
+              "time": {
+                "start": 1751603571111,
+                "stop": 1751603578224,
+                "duration": 7113
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 2,
+              "retriesStatusChange": false,
+              "parameters": ["chromium"],
+              "tags": []
+            }
+          ],
+          "uid": "d5151c14489ef25ecf8c625b00b25da1"
+        }
+      ],
+      "uid": "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+    }
+  ]
+}

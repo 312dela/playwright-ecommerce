@@ -3,9 +3,9 @@
     "firstName": "account",
     "lastName": "name",
     "phone": "1234567890",
-    "caseVariants" : [
-        {"email": "email1@yopmail.com"},
-        {"email": "Email1@yopmail.com"}
+    "caseVariants": [
+      { "email": "email1@yopmail.com" },
+      { "email": "Email1@yopmail.com" }
     ],
     "userEmail": "email1@yopmail.com",
     "otherUserEmail": "email2@yopmail.com",

@@ -2,20 +2,20 @@
 
 ```yaml
 - navigation:
-  - link "Automation Automation Practice":
-    - /url: ""
-    - heading "Automation" [level=3]
-    - paragraph: Automation Practice
-  - list:
-    - listitem:
-      - button " HOME"
-    - listitem
-    - listitem:
-      - button " ORDERS"
-    - listitem:
-      - button " Cart"
-    - listitem:
-      - button "Sign Out"
+    - link "Automation Automation Practice":
+        - /url: ''
+        - heading "Automation" [level=3]
+        - paragraph: Automation Practice
+    - list:
+        - listitem:
+            - button " HOME"
+        - listitem
+        - listitem:
+            - button " ORDERS"
+        - listitem:
+            - button " Cart"
+        - listitem:
+            - button "Sign Out"
 - paragraph: Thank you for Shopping With Us
 - text: order summary Order Id 68674f5d129e250258cb058a Billing Address
 - paragraph: email1@yopmail.com

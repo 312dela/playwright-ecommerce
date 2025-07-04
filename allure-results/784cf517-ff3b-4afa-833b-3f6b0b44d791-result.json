@@ -1,1 +1,297 @@
-{"uuid":"784cf517-ff3b-4afa-833b-3f6b0b44d791","name":"Login using registered email Email1@yopmail.com","historyId":"1b5787bd5d84e53f18b5a0d048b0d235:5bd835b0d6b1d4ada3b9f0db936e82c8","status":"failed","statusDetails":{"message":"Error: Timed out 5000ms waiting for expect(locator).toHaveText(expected)\n\nLocator: locator('#toast-container')\nExpected string: \"Login Successfully\"\nReceived string: \"\"\nCall log:\n  - Expect \"toHaveText\" with timeout 5000ms\n  - waiting for locator('#toast-container')\n    3 × locator resolved to <div id=\"toast-container\" class=\"toast-bottom-right toast-container\">…</div>\n      - unexpected value \" Incorrect email or password. \"\n    4 × locator resolved to <div id=\"toast-container\" class=\"toast-bottom-right toast-container\"></div>\n      - unexpected value \"\"\n","trace":"Error: Timed out 5000ms waiting for expect(locator).toHaveText(expected)\n\nLocator: locator('#toast-container')\nExpected string: \"Login Successfully\"\nReceived string: \"\"\nCall log:\n  - Expect \"toHaveText\" with timeout 5000ms\n  - waiting for locator('#toast-container')\n    3 × locator resolved to <div id=\"toast-container\" class=\"toast-bottom-right toast-container\">…</div>\n      - unexpected value \" Incorrect email or password. \"\n    4 × locator resolved to <div id=\"toast-container\" class=\"toast-bottom-right toast-container\"></div>\n      - unexpected value \"\"\n\n    at LoginPage.verifySuccessfulLogin (/Users/macbook/Documents/playwright-ecommerce/pages/LoginPage.ts:27:39)\n    at /Users/macbook/Documents/playwright-ecommerce/tests/login-flow.spec.ts:19:23"},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Launch browser","start":1751603557781,"uuid":"b2f66f47-a50a-482f-8a5a-7f31e65fa389","stop":1751603558839}],"attachments":[],"parameters":[],"name":"browser","start":1751603557779,"uuid":"bab9c733-48e2-4b00-b4ee-01c273f088f3","stop":1751603558840},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create context","start":1751603558851,"uuid":"1f0598b9-e8a4-495d-a01a-1ad13a3cee1a","stop":1751603558892}],"attachments":[],"parameters":[],"name":"context","start":1751603558841,"uuid":"ef84c0de-42b9-4da3-9e0d-e31ffb51d711","stop":1751603558893},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create page","start":1751603558896,"uuid":"0ed8b655-ec3e-4c5f-af87-30d937d20445","stop":1751603559691}],"attachments":[],"parameters":[],"name":"page","start":1751603558893,"uuid":"53b0f9ee-9f37-4536-a902-5ac9920524b4","stop":1751603559692},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Navigate to \"/client\"","start":1751603559699,"uuid":"2ffd381e-ee84-4eb1-a71b-ad095ebdc76c","stop":1751603561713}],"attachments":[],"parameters":[],"name":"beforeEach hook","start":1751603557776,"uuid":"ddd3c1ca-174c-4934-b195-0cce0b26b252","stop":1751603561714}],"attachments":[],"parameters":[],"name":"Before Hooks","start":1751603557776,"uuid":"ba3221e3-5e35-4353-9ca9-f78120c908df","stop":1751603561715},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751603561726,"name":"Fill \"Email1@yopmail.com\" getByPlaceholder('email@example.com')","uuid":"1d203068-7767-49a9-808c-8242cdc5aac1","stop":1751603561818},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751603561825,"name":"Fill \"Test12345\" getByPlaceholder('enter your passsword')","uuid":"5bcca954-7185-456c-9ec4-e290fc249335","stop":1751603561853},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751603561860,"name":"Click getByRole('button', { name: 'Login' })","uuid":"c7945398-4eb2-479e-bbfb-d9179c249eb0","stop":1751603561932},{"status":"failed","statusDetails":{"message":"Error: Timed out 5000ms waiting for expect(locator).toHaveText(expected)\n\nLocator: locator('#toast-container')\nExpected string: \"Login Successfully\"\nReceived string: \"\"\nCall log:\n  - Expect \"toHaveText\" with timeout 5000ms\n  - waiting for locator('#toast-container')\n    3 × locator resolved to <div id=\"toast-container\" class=\"toast-bottom-right toast-container\">…</div>\n      - unexpected value \" Incorrect email or password. \"\n    4 × locator resolved to <div id=\"toast-container\" class=\"toast-bottom-right toast-container\"></div>\n      - unexpected value \"\"\n","trace":"Error: Timed out 5000ms waiting for expect(locator).toHaveText(expected)\n\nLocator: locator('#toast-container')\nExpected string: \"Login Successfully\"\nReceived string: \"\"\nCall log:\n  - Expect \"toHaveText\" with timeout 5000ms\n  - waiting for locator('#toast-container')\n    3 × locator resolved to <div id=\"toast-container\" class=\"toast-bottom-right toast-container\">…</div>\n      - unexpected value \" Incorrect email or password. \"\n    4 × locator resolved to <div id=\"toast-container\" class=\"toast-bottom-right toast-container\"></div>\n      - unexpected value \"\"\n\n    at LoginPage.verifySuccessfulLogin (/Users/macbook/Documents/playwright-ecommerce/pages/LoginPage.ts:27:39)\n    at /Users/macbook/Documents/playwright-ecommerce/tests/login-flow.spec.ts:19:23"},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751603561935,"name":"toHaveText","uuid":"07e3b450-13bf-4be5-9a8d-3ae5fcb35696","stop":1751603566968},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"screenshot","source":"f681fd8f-dfc3-42f2-9aa0-01c42c808822-attachment.png","type":"image/png"}],"parameters":[],"start":1751603567206,"name":"screenshot","stop":1751603567206},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"video","source":"0a028a31-e97f-4183-86f8-3c13b1b6d294-attachment.webm","type":"video/webm"}],"parameters":[],"start":1751603567207,"name":"video","stop":1751603567207},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"error-context","source":"8b36a3bf-8ec6-4132-803e-37a8e25702d2-attachment.md","type":"text/markdown"}],"parameters":[],"start":1751603567207,"name":"error-context","stop":1751603567207},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Screenshot","start":1751603566974,"uuid":"3fb083fa-4db8-4a19-998c-9d1405a3dfdd","stop":1751603567035},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"page","start":1751603567039,"uuid":"42f1ffa8-3c73-440b-bf55-01b1a878baaa","stop":1751603567039},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"context","start":1751603567040,"uuid":"e074b0fc-2854-4ac7-9937-1a69555586c2","stop":1751603567040}],"attachments":[],"parameters":[],"name":"After Hooks","start":1751603566970,"uuid":"49e12300-6262-48fa-abb4-b260b020f860","stop":1751603567085}],"attachments":[],"parameters":[{"name":"Project","value":"chromium"}],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"login-flow.spec.ts"},{"name":"titlePath","value":" > chromium > login-flow.spec.ts > Login Flow Validation"},{"name":"tag","value":"yopmail.com"},{"name":"host","value":"DelaRosa.local"},{"name":"thread","value":"pid-4352-worker-1"},{"name":"parentSuite","value":"chromium"},{"name":"suite","value":"login-flow.spec.ts"},{"name":"subSuite","value":"Login Flow Validation"}],"links":[],"start":1751603557784,"testCaseId":"1b5787bd5d84e53f18b5a0d048b0d235","fullName":"login-flow.spec.ts:15:9","titlePath":["login-flow.spec.ts","Login Flow Validation"],"stop":1751603566021}
+{
+  "uuid": "784cf517-ff3b-4afa-833b-3f6b0b44d791",
+  "name": "Login using registered email Email1@yopmail.com",
+  "historyId": "1b5787bd5d84e53f18b5a0d048b0d235:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: Timed out 5000ms waiting for expect(locator).toHaveText(expected)\n\nLocator: locator('#toast-container')\nExpected string: \"Login Successfully\"\nReceived string: \"\"\nCall log:\n  - Expect \"toHaveText\" with timeout 5000ms\n  - waiting for locator('#toast-container')\n    3 × locator resolved to <div id=\"toast-container\" class=\"toast-bottom-right toast-container\">…</div>\n      - unexpected value \" Incorrect email or password. \"\n    4 × locator resolved to <div id=\"toast-container\" class=\"toast-bottom-right toast-container\"></div>\n      - unexpected value \"\"\n",
+    "trace": "Error: Timed out 5000ms waiting for expect(locator).toHaveText(expected)\n\nLocator: locator('#toast-container')\nExpected string: \"Login Successfully\"\nReceived string: \"\"\nCall log:\n  - Expect \"toHaveText\" with timeout 5000ms\n  - waiting for locator('#toast-container')\n    3 × locator resolved to <div id=\"toast-container\" class=\"toast-bottom-right toast-container\">…</div>\n      - unexpected value \" Incorrect email or password. \"\n    4 × locator resolved to <div id=\"toast-container\" class=\"toast-bottom-right toast-container\"></div>\n      - unexpected value \"\"\n\n    at LoginPage.verifySuccessfulLogin (/Users/macbook/Documents/playwright-ecommerce/pages/LoginPage.ts:27:39)\n    at /Users/macbook/Documents/playwright-ecommerce/tests/login-flow.spec.ts:19:23"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Launch browser",
+                  "start": 1751603557781,
+                  "uuid": "b2f66f47-a50a-482f-8a5a-7f31e65fa389",
+                  "stop": 1751603558839
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "name": "browser",
+              "start": 1751603557779,
+              "uuid": "bab9c733-48e2-4b00-b4ee-01c273f088f3",
+              "stop": 1751603558840
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Create context",
+                  "start": 1751603558851,
+                  "uuid": "1f0598b9-e8a4-495d-a01a-1ad13a3cee1a",
+                  "stop": 1751603558892
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "name": "context",
+              "start": 1751603558841,
+              "uuid": "ef84c0de-42b9-4da3-9e0d-e31ffb51d711",
+              "stop": 1751603558893
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Create page",
+                  "start": 1751603558896,
+                  "uuid": "0ed8b655-ec3e-4c5f-af87-30d937d20445",
+                  "stop": 1751603559691
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "name": "page",
+              "start": 1751603558893,
+              "uuid": "53b0f9ee-9f37-4536-a902-5ac9920524b4",
+              "stop": 1751603559692
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Navigate to \"/client\"",
+              "start": 1751603559699,
+              "uuid": "2ffd381e-ee84-4eb1-a71b-ad095ebdc76c",
+              "stop": 1751603561713
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "beforeEach hook",
+          "start": 1751603557776,
+          "uuid": "ddd3c1ca-174c-4934-b195-0cce0b26b252",
+          "stop": 1751603561714
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1751603557776,
+      "uuid": "ba3221e3-5e35-4353-9ca9-f78120c908df",
+      "stop": 1751603561715
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1751603561726,
+      "name": "Fill \"Email1@yopmail.com\" getByPlaceholder('email@example.com')",
+      "uuid": "1d203068-7767-49a9-808c-8242cdc5aac1",
+      "stop": 1751603561818
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1751603561825,
+      "name": "Fill \"Test12345\" getByPlaceholder('enter your passsword')",
+      "uuid": "5bcca954-7185-456c-9ec4-e290fc249335",
+      "stop": 1751603561853
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1751603561860,
+      "name": "Click getByRole('button', { name: 'Login' })",
+      "uuid": "c7945398-4eb2-479e-bbfb-d9179c249eb0",
+      "stop": 1751603561932
+    },
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "Error: Timed out 5000ms waiting for expect(locator).toHaveText(expected)\n\nLocator: locator('#toast-container')\nExpected string: \"Login Successfully\"\nReceived string: \"\"\nCall log:\n  - Expect \"toHaveText\" with timeout 5000ms\n  - waiting for locator('#toast-container')\n    3 × locator resolved to <div id=\"toast-container\" class=\"toast-bottom-right toast-container\">…</div>\n      - unexpected value \" Incorrect email or password. \"\n    4 × locator resolved to <div id=\"toast-container\" class=\"toast-bottom-right toast-container\"></div>\n      - unexpected value \"\"\n",
+        "trace": "Error: Timed out 5000ms waiting for expect(locator).toHaveText(expected)\n\nLocator: locator('#toast-container')\nExpected string: \"Login Successfully\"\nReceived string: \"\"\nCall log:\n  - Expect \"toHaveText\" with timeout 5000ms\n  - waiting for locator('#toast-container')\n    3 × locator resolved to <div id=\"toast-container\" class=\"toast-bottom-right toast-container\">…</div>\n      - unexpected value \" Incorrect email or password. \"\n    4 × locator resolved to <div id=\"toast-container\" class=\"toast-bottom-right toast-container\"></div>\n      - unexpected value \"\"\n\n    at LoginPage.verifySuccessfulLogin (/Users/macbook/Documents/playwright-ecommerce/pages/LoginPage.ts:27:39)\n    at /Users/macbook/Documents/playwright-ecommerce/tests/login-flow.spec.ts:19:23"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1751603561935,
+      "name": "toHaveText",
+      "uuid": "07e3b450-13bf-4be5-9a8d-3ae5fcb35696",
+      "stop": 1751603566968
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "screenshot",
+          "source": "f681fd8f-dfc3-42f2-9aa0-01c42c808822-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1751603567206,
+      "name": "screenshot",
+      "stop": 1751603567206
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "video",
+          "source": "0a028a31-e97f-4183-86f8-3c13b1b6d294-attachment.webm",
+          "type": "video/webm"
+        }
+      ],
+      "parameters": [],
+      "start": 1751603567207,
+      "name": "video",
+      "stop": 1751603567207
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "error-context",
+          "source": "8b36a3bf-8ec6-4132-803e-37a8e25702d2-attachment.md",
+          "type": "text/markdown"
+        }
+      ],
+      "parameters": [],
+      "start": 1751603567207,
+      "name": "error-context",
+      "stop": 1751603567207
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Screenshot",
+          "start": 1751603566974,
+          "uuid": "3fb083fa-4db8-4a19-998c-9d1405a3dfdd",
+          "stop": 1751603567035
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "page",
+          "start": 1751603567039,
+          "uuid": "42f1ffa8-3c73-440b-bf55-01b1a878baaa",
+          "stop": 1751603567039
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "context",
+          "start": 1751603567040,
+          "uuid": "e074b0fc-2854-4ac7-9937-1a69555586c2",
+          "stop": 1751603567040
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1751603566970,
+      "uuid": "49e12300-6262-48fa-abb4-b260b020f860",
+      "stop": 1751603567085
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "login-flow.spec.ts" },
+    {
+      "name": "titlePath",
+      "value": " > chromium > login-flow.spec.ts > Login Flow Validation"
+    },
+    { "name": "tag", "value": "yopmail.com" },
+    { "name": "host", "value": "DelaRosa.local" },
+    { "name": "thread", "value": "pid-4352-worker-1" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "login-flow.spec.ts" },
+    { "name": "subSuite", "value": "Login Flow Validation" }
+  ],
+  "links": [],
+  "start": 1751603557784,
+  "testCaseId": "1b5787bd5d84e53f18b5a0d048b0d235",
+  "fullName": "login-flow.spec.ts:15:9",
+  "titlePath": ["login-flow.spec.ts", "Login Flow Validation"],
+  "stop": 1751603566021
+}

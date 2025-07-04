@@ -1,1 +1,367 @@
-{"uuid":"d7d29999-763f-4d66-be09-5711a9824cc9","name":"Create account using uppercase - registered email","historyId":"99f4910b069431d7ff36759b44d385e6:5bd835b0d6b1d4ada3b9f0db936e82c8","status":"failed","statusDetails":{"message":"Error: Timed out 5000ms waiting for expect(locator).toContainText(expected)\n\nLocator: locator('#toast-container')\nExpected string: \"already\"\nReceived string: \"\"\nCall log:\n  - Expect \"toContainText\" with timeout 5000ms\n  - waiting for locator('#toast-container')\n    2 × locator resolved to <div id=\"toast-container\" class=\"toast-bottom-right toast-container\">…</div>\n      - unexpected value \" Registered Successfully \"\n    4 × locator resolved to <div id=\"toast-container\" class=\"toast-bottom-right toast-container\"></div>\n      - unexpected value \"\"\n","trace":"Error: Timed out 5000ms waiting for expect(locator).toContainText(expected)\n\nLocator: locator('#toast-container')\nExpected string: \"already\"\nReceived string: \"\"\nCall log:\n  - Expect \"toContainText\" with timeout 5000ms\n  - waiting for locator('#toast-container')\n    2 × locator resolved to <div id=\"toast-container\" class=\"toast-bottom-right toast-container\">…</div>\n      - unexpected value \" Registered Successfully \"\n    4 × locator resolved to <div id=\"toast-container\" class=\"toast-bottom-right toast-container\"></div>\n      - unexpected value \"\"\n\n    at RegistrationPage.verifyAlreadyRegistered (/Users/macbook/Documents/playwright-ecommerce/pages/RegistrationPage.ts:48:46)\n    at /Users/macbook/Documents/playwright-ecommerce/tests/registration-flow.spec.ts:40:28"},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create context","start":1751603571110,"uuid":"ba204f2a-39da-4aea-965e-b639b7e18d6e","stop":1751603571128}],"attachments":[],"parameters":[],"name":"context","start":1751603571109,"uuid":"1b154dde-aa83-4c5b-968b-7d91022eaefb","stop":1751603571128},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create page","start":1751603571129,"uuid":"854a03a3-3ada-42f7-a90a-81840d750ce3","stop":1751603571377}],"attachments":[],"parameters":[],"name":"page","start":1751603571129,"uuid":"16075bf3-18fa-4e38-ae11-2b83fd6e2de2","stop":1751603571377},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Navigate to \"/client\"","start":1751603571377,"uuid":"7508fc38-7d4d-4d14-a34f-60cb3962db1c","stop":1751603572794},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Click getByRole('link', { name: 'Register' })","start":1751603572795,"uuid":"24b18788-3b39-419c-886a-180c9af1709d","stop":1751603572897}],"attachments":[],"parameters":[],"name":"beforeEach hook","start":1751603571109,"uuid":"5f1b5946-08b0-4c11-b3d8-4113fb14dc91","stop":1751603572897}],"attachments":[],"parameters":[],"name":"Before Hooks","start":1751603571109,"uuid":"41646790-e19b-4f40-97dc-2ff3411e1305","stop":1751603572897},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751603572898,"name":"Fill \"account\" getByRole('textbox', { name: 'First Name' })","uuid":"07680023-29c8-45eb-89ba-f16c981f513f","stop":1751603572904},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751603572905,"name":"Fill \"name\" getByRole('textbox', { name: 'Last Name' })","uuid":"b2d054e4-5f0c-4e98-94f6-02f164e5b928","stop":1751603572912},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751603572912,"name":"Fill \"Autoregistration58@yopmail.com\" getByPlaceholder('email@example.com')","uuid":"a1d2dff9-35e8-494c-8cc1-faf498976825","stop":1751603572917},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751603572918,"name":"Fill \"1234567890\" getByPlaceholder('enter your number')","uuid":"863bd06b-ac34-4725-9701-cbebefda0d6c","stop":1751603572922},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751603572923,"name":"Select option locator('select[formcontrolname=\"occupation\"]')","uuid":"eed1c27b-43df-48e2-ba15-d10cbafe65a3","stop":1751603572928},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751603572928,"name":"Check getByLabel('Female')","uuid":"89d7ed70-1cde-42af-af9d-2dfcb75677b8","stop":1751603572959},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751603572959,"name":"Fill \"Test12345\" locator('#userPassword')","uuid":"ce472733-c671-4b58-b293-79dccdd79ea3","stop":1751603572963},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751603572963,"name":"Fill \"Test12345\" locator('#confirmPassword')","uuid":"e188e8fc-4165-4e6c-950d-3d3b13efca49","stop":1751603572968},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751603572969,"name":"Check locator('input[type=\"checkbox\"]')","uuid":"bb783204-5681-4408-a764-581ee3423d23","stop":1751603573009},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751603573010,"name":"Click getByRole('button', { name: 'Register' })","uuid":"eb97efc7-005b-41f5-9d28-609f3f5788bd","stop":1751603573044},{"status":"failed","statusDetails":{"message":"Error: Timed out 5000ms waiting for expect(locator).toContainText(expected)\n\nLocator: locator('#toast-container')\nExpected string: \"already\"\nReceived string: \"\"\nCall log:\n  - Expect \"toContainText\" with timeout 5000ms\n  - waiting for locator('#toast-container')\n    2 × locator resolved to <div id=\"toast-container\" class=\"toast-bottom-right toast-container\">…</div>\n      - unexpected value \" Registered Successfully \"\n    4 × locator resolved to <div id=\"toast-container\" class=\"toast-bottom-right toast-container\"></div>\n      - unexpected value \"\"\n","trace":"Error: Timed out 5000ms waiting for expect(locator).toContainText(expected)\n\nLocator: locator('#toast-container')\nExpected string: \"already\"\nReceived string: \"\"\nCall log:\n  - Expect \"toContainText\" with timeout 5000ms\n  - waiting for locator('#toast-container')\n    2 × locator resolved to <div id=\"toast-container\" class=\"toast-bottom-right toast-container\">…</div>\n      - unexpected value \" Registered Successfully \"\n    4 × locator resolved to <div id=\"toast-container\" class=\"toast-bottom-right toast-container\"></div>\n      - unexpected value \"\"\n\n    at RegistrationPage.verifyAlreadyRegistered (/Users/macbook/Documents/playwright-ecommerce/pages/RegistrationPage.ts:48:46)\n    at /Users/macbook/Documents/playwright-ecommerce/tests/registration-flow.spec.ts:40:28"},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751603573045,"name":"toContainText","uuid":"1d53a238-8de5-47aa-964c-be8d5e804717","stop":1751603578053},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"screenshot","source":"4bdedc28-4b35-4105-bc8e-3c4d86674411-attachment.png","type":"image/png"}],"parameters":[],"start":1751603578301,"name":"screenshot","stop":1751603578301},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"video","source":"347a8acc-5e12-4e8d-92e3-5fd318e17e72-attachment.webm","type":"video/webm"}],"parameters":[],"start":1751603578301,"name":"video","stop":1751603578301},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"error-context","source":"27a06c88-6b33-431e-b0b9-142fbd886e9b-attachment.md","type":"text/markdown"}],"parameters":[],"start":1751603578302,"name":"error-context","stop":1751603578302},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Screenshot","start":1751603578056,"uuid":"9179452e-7c57-4e29-a51d-332641ce2c2e","stop":1751603578124},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"page","start":1751603578125,"uuid":"8cbcb9c0-1bab-42a8-a530-6385521149e8","stop":1751603578125},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"context","start":1751603578126,"uuid":"03c124a0-44fb-4edc-959d-df6f92c67fd1","stop":1751603578126}],"attachments":[],"parameters":[],"name":"After Hooks","start":1751603578054,"uuid":"eb4ca936-898b-474e-8edc-6515cabb9e32","stop":1751603578225}],"attachments":[],"parameters":[{"name":"Project","value":"chromium"}],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"registration-flow.spec.ts"},{"name":"titlePath","value":" > chromium > registration-flow.spec.ts > Registration Flow Validation"},{"name":"host","value":"DelaRosa.local"},{"name":"thread","value":"pid-4352-worker-0"},{"name":"parentSuite","value":"chromium"},{"name":"suite","value":"registration-flow.spec.ts"},{"name":"subSuite","value":"Registration Flow Validation"}],"links":[],"start":1751603571111,"testCaseId":"99f4910b069431d7ff36759b44d385e6","fullName":"registration-flow.spec.ts:37:7","titlePath":["registration-flow.spec.ts","Registration Flow Validation"],"stop":1751603578224}
+{
+  "uuid": "d7d29999-763f-4d66-be09-5711a9824cc9",
+  "name": "Create account using uppercase - registered email",
+  "historyId": "99f4910b069431d7ff36759b44d385e6:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: Timed out 5000ms waiting for expect(locator).toContainText(expected)\n\nLocator: locator('#toast-container')\nExpected string: \"already\"\nReceived string: \"\"\nCall log:\n  - Expect \"toContainText\" with timeout 5000ms\n  - waiting for locator('#toast-container')\n    2 × locator resolved to <div id=\"toast-container\" class=\"toast-bottom-right toast-container\">…</div>\n      - unexpected value \" Registered Successfully \"\n    4 × locator resolved to <div id=\"toast-container\" class=\"toast-bottom-right toast-container\"></div>\n      - unexpected value \"\"\n",
+    "trace": "Error: Timed out 5000ms waiting for expect(locator).toContainText(expected)\n\nLocator: locator('#toast-container')\nExpected string: \"already\"\nReceived string: \"\"\nCall log:\n  - Expect \"toContainText\" with timeout 5000ms\n  - waiting for locator('#toast-container')\n    2 × locator resolved to <div id=\"toast-container\" class=\"toast-bottom-right toast-container\">…</div>\n      - unexpected value \" Registered Successfully \"\n    4 × locator resolved to <div id=\"toast-container\" class=\"toast-bottom-right toast-container\"></div>\n      - unexpected value \"\"\n\n    at RegistrationPage.verifyAlreadyRegistered (/Users/macbook/Documents/playwright-ecommerce/pages/RegistrationPage.ts:48:46)\n    at /Users/macbook/Documents/playwright-ecommerce/tests/registration-flow.spec.ts:40:28"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Create context",
+                  "start": 1751603571110,
+                  "uuid": "ba204f2a-39da-4aea-965e-b639b7e18d6e",
+                  "stop": 1751603571128
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "name": "context",
+              "start": 1751603571109,
+              "uuid": "1b154dde-aa83-4c5b-968b-7d91022eaefb",
+              "stop": 1751603571128
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Create page",
+                  "start": 1751603571129,
+                  "uuid": "854a03a3-3ada-42f7-a90a-81840d750ce3",
+                  "stop": 1751603571377
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "name": "page",
+              "start": 1751603571129,
+              "uuid": "16075bf3-18fa-4e38-ae11-2b83fd6e2de2",
+              "stop": 1751603571377
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Navigate to \"/client\"",
+              "start": 1751603571377,
+              "uuid": "7508fc38-7d4d-4d14-a34f-60cb3962db1c",
+              "stop": 1751603572794
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Click getByRole('link', { name: 'Register' })",
+              "start": 1751603572795,
+              "uuid": "24b18788-3b39-419c-886a-180c9af1709d",
+              "stop": 1751603572897
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "beforeEach hook",
+          "start": 1751603571109,
+          "uuid": "5f1b5946-08b0-4c11-b3d8-4113fb14dc91",
+          "stop": 1751603572897
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1751603571109,
+      "uuid": "41646790-e19b-4f40-97dc-2ff3411e1305",
+      "stop": 1751603572897
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1751603572898,
+      "name": "Fill \"account\" getByRole('textbox', { name: 'First Name' })",
+      "uuid": "07680023-29c8-45eb-89ba-f16c981f513f",
+      "stop": 1751603572904
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1751603572905,
+      "name": "Fill \"name\" getByRole('textbox', { name: 'Last Name' })",
+      "uuid": "b2d054e4-5f0c-4e98-94f6-02f164e5b928",
+      "stop": 1751603572912
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1751603572912,
+      "name": "Fill \"Autoregistration58@yopmail.com\" getByPlaceholder('email@example.com')",
+      "uuid": "a1d2dff9-35e8-494c-8cc1-faf498976825",
+      "stop": 1751603572917
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1751603572918,
+      "name": "Fill \"1234567890\" getByPlaceholder('enter your number')",
+      "uuid": "863bd06b-ac34-4725-9701-cbebefda0d6c",
+      "stop": 1751603572922
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1751603572923,
+      "name": "Select option locator('select[formcontrolname=\"occupation\"]')",
+      "uuid": "eed1c27b-43df-48e2-ba15-d10cbafe65a3",
+      "stop": 1751603572928
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1751603572928,
+      "name": "Check getByLabel('Female')",
+      "uuid": "89d7ed70-1cde-42af-af9d-2dfcb75677b8",
+      "stop": 1751603572959
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1751603572959,
+      "name": "Fill \"Test12345\" locator('#userPassword')",
+      "uuid": "ce472733-c671-4b58-b293-79dccdd79ea3",
+      "stop": 1751603572963
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1751603572963,
+      "name": "Fill \"Test12345\" locator('#confirmPassword')",
+      "uuid": "e188e8fc-4165-4e6c-950d-3d3b13efca49",
+      "stop": 1751603572968
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1751603572969,
+      "name": "Check locator('input[type=\"checkbox\"]')",
+      "uuid": "bb783204-5681-4408-a764-581ee3423d23",
+      "stop": 1751603573009
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1751603573010,
+      "name": "Click getByRole('button', { name: 'Register' })",
+      "uuid": "eb97efc7-005b-41f5-9d28-609f3f5788bd",
+      "stop": 1751603573044
+    },
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "Error: Timed out 5000ms waiting for expect(locator).toContainText(expected)\n\nLocator: locator('#toast-container')\nExpected string: \"already\"\nReceived string: \"\"\nCall log:\n  - Expect \"toContainText\" with timeout 5000ms\n  - waiting for locator('#toast-container')\n    2 × locator resolved to <div id=\"toast-container\" class=\"toast-bottom-right toast-container\">…</div>\n      - unexpected value \" Registered Successfully \"\n    4 × locator resolved to <div id=\"toast-container\" class=\"toast-bottom-right toast-container\"></div>\n      - unexpected value \"\"\n",
+        "trace": "Error: Timed out 5000ms waiting for expect(locator).toContainText(expected)\n\nLocator: locator('#toast-container')\nExpected string: \"already\"\nReceived string: \"\"\nCall log:\n  - Expect \"toContainText\" with timeout 5000ms\n  - waiting for locator('#toast-container')\n    2 × locator resolved to <div id=\"toast-container\" class=\"toast-bottom-right toast-container\">…</div>\n      - unexpected value \" Registered Successfully \"\n    4 × locator resolved to <div id=\"toast-container\" class=\"toast-bottom-right toast-container\"></div>\n      - unexpected value \"\"\n\n    at RegistrationPage.verifyAlreadyRegistered (/Users/macbook/Documents/playwright-ecommerce/pages/RegistrationPage.ts:48:46)\n    at /Users/macbook/Documents/playwright-ecommerce/tests/registration-flow.spec.ts:40:28"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1751603573045,
+      "name": "toContainText",
+      "uuid": "1d53a238-8de5-47aa-964c-be8d5e804717",
+      "stop": 1751603578053
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "screenshot",
+          "source": "4bdedc28-4b35-4105-bc8e-3c4d86674411-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1751603578301,
+      "name": "screenshot",
+      "stop": 1751603578301
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "video",
+          "source": "347a8acc-5e12-4e8d-92e3-5fd318e17e72-attachment.webm",
+          "type": "video/webm"
+        }
+      ],
+      "parameters": [],
+      "start": 1751603578301,
+      "name": "video",
+      "stop": 1751603578301
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "error-context",
+          "source": "27a06c88-6b33-431e-b0b9-142fbd886e9b-attachment.md",
+          "type": "text/markdown"
+        }
+      ],
+      "parameters": [],
+      "start": 1751603578302,
+      "name": "error-context",
+      "stop": 1751603578302
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Screenshot",
+          "start": 1751603578056,
+          "uuid": "9179452e-7c57-4e29-a51d-332641ce2c2e",
+          "stop": 1751603578124
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "page",
+          "start": 1751603578125,
+          "uuid": "8cbcb9c0-1bab-42a8-a530-6385521149e8",
+          "stop": 1751603578125
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "context",
+          "start": 1751603578126,
+          "uuid": "03c124a0-44fb-4edc-959d-df6f92c67fd1",
+          "stop": 1751603578126
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1751603578054,
+      "uuid": "eb4ca936-898b-474e-8edc-6515cabb9e32",
+      "stop": 1751603578225
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "registration-flow.spec.ts" },
+    {
+      "name": "titlePath",
+      "value": " > chromium > registration-flow.spec.ts > Registration Flow Validation"
+    },
+    { "name": "host", "value": "DelaRosa.local" },
+    { "name": "thread", "value": "pid-4352-worker-0" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "registration-flow.spec.ts" },
+    { "name": "subSuite", "value": "Registration Flow Validation" }
+  ],
+  "links": [],
+  "start": 1751603571111,
+  "testCaseId": "99f4910b069431d7ff36759b44d385e6",
+  "fullName": "registration-flow.spec.ts:37:7",
+  "titlePath": ["registration-flow.spec.ts", "Registration Flow Validation"],
+  "stop": 1751603578224
+}

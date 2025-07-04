@@ -1,1 +1,301 @@
-{"uuid":"13c8aee1-431e-43d0-864f-95d314b9d77d","name":"Create account using lowercase - registered email","historyId":"237b209d526aa2f58bff3125b3db728e:5bd835b0d6b1d4ada3b9f0db936e82c8","status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create context","start":1751600990201,"uuid":"9492521f-6474-49a5-93e5-e3cf0a789eb2","stop":1751600990223}],"attachments":[],"parameters":[],"name":"context","start":1751600990200,"uuid":"c96e79be-b480-4cea-a543-cb72e87c8cab","stop":1751600990223},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create page","start":1751600990223,"uuid":"f95fd91a-9952-48b2-9246-3ac4bcffcd44","stop":1751600990450}],"attachments":[],"parameters":[],"name":"page","start":1751600990223,"uuid":"36faec98-a536-4b14-92c1-e7277f558517","stop":1751600990450},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Navigate to \"/client\"","start":1751600990450,"uuid":"7782f419-e0b1-44e1-933c-5bc1b6c97c2a","stop":1751600991969},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Click getByRole('link', { name: 'Register' })","start":1751600991970,"uuid":"4ac39ae7-1607-4e7d-b779-695b36693c35","stop":1751600992135}],"attachments":[],"parameters":[],"name":"beforeEach hook","start":1751600990200,"uuid":"77be070d-7c32-4bda-b265-c5c702929bb0","stop":1751600992135}],"attachments":[],"parameters":[],"name":"Before Hooks","start":1751600990200,"uuid":"2d0b483f-5ece-434d-be99-e0c0f1dd00a4","stop":1751600992135},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751600992136,"name":"Fill \"account\" getByRole('textbox', { name: 'First Name' })","uuid":"05832607-3e40-4e7f-a794-348018f6966a","stop":1751600992143},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751600992143,"name":"Fill \"name\" getByRole('textbox', { name: 'Last Name' })","uuid":"c598e7bb-62e3-4e91-b174-b174e3ca4e4e","stop":1751600992148},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751600992149,"name":"Fill \"autoregistration56@yopmail.com\" getByPlaceholder('email@example.com')","uuid":"ab9e1618-70a5-4bcf-a160-c9a98405f451","stop":1751600992153},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751600992155,"name":"Fill \"1234567890\" getByPlaceholder('enter your number')","uuid":"6328b65b-db11-4bf8-b6e1-2d6596f66938","stop":1751600992159},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751600992160,"name":"Select option locator('select[formcontrolname=\"occupation\"]')","uuid":"2260837a-5b50-48a0-8f35-59f3ad9c61fd","stop":1751600992167},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751600992167,"name":"Check getByLabel('Female')","uuid":"3d2885b5-61dc-4074-b3a6-0000e2b7eac2","stop":1751600992201},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751600992202,"name":"Fill \"Test12345\" locator('#userPassword')","uuid":"2d9c24db-0a0e-4ebe-8a15-c826b56c63e5","stop":1751600992210},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751600992211,"name":"Fill \"Test12345\" locator('#confirmPassword')","uuid":"d7e8cc3d-1aa9-4388-af36-e20d3b9d13f9","stop":1751600992218},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751600992219,"name":"Check locator('input[type=\"checkbox\"]')","uuid":"929ffff8-cf6e-47c8-a506-496a008293d9","stop":1751600992254},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751600992255,"name":"Click getByRole('button', { name: 'Register' })","uuid":"3a7ac5c4-56b3-4487-90ee-4f05447f1cdc","stop":1751600992293},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751600992297,"name":"toContainText","uuid":"8cbf6b2d-7d8a-4c78-b625-3bc19fbce9c3","stop":1751600992411},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"page","start":1751600992414,"uuid":"e21c1297-8745-4de5-9217-38ed4577abcc","stop":1751600992414},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"context","start":1751600992414,"uuid":"90d7227b-4d90-41c9-be61-bc12a8fe67be","stop":1751600992414}],"attachments":[],"parameters":[],"name":"After Hooks","start":1751600992412,"uuid":"ce0b8543-1581-4122-a247-fac794c87c29","stop":1751600992514}],"attachments":[],"parameters":[{"name":"Project","value":"chromium"}],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"registration-flow.spec.ts"},{"name":"titlePath","value":" > chromium > registration-flow.spec.ts > Registration Flow Validation"},{"name":"host","value":"DelaRosa.local"},{"name":"thread","value":"pid-2765-worker-0"},{"name":"parentSuite","value":"chromium"},{"name":"suite","value":"registration-flow.spec.ts"},{"name":"subSuite","value":"Registration Flow Validation"}],"links":[],"start":1751600990201,"testCaseId":"237b209d526aa2f58bff3125b3db728e","fullName":"registration-flow.spec.ts:31:7","titlePath":["registration-flow.spec.ts","Registration Flow Validation"],"stop":1751600992512}
+{
+  "uuid": "13c8aee1-431e-43d0-864f-95d314b9d77d",
+  "name": "Create account using lowercase - registered email",
+  "historyId": "237b209d526aa2f58bff3125b3db728e:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Create context",
+                  "start": 1751600990201,
+                  "uuid": "9492521f-6474-49a5-93e5-e3cf0a789eb2",
+                  "stop": 1751600990223
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "name": "context",
+              "start": 1751600990200,
+              "uuid": "c96e79be-b480-4cea-a543-cb72e87c8cab",
+              "stop": 1751600990223
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Create page",
+                  "start": 1751600990223,
+                  "uuid": "f95fd91a-9952-48b2-9246-3ac4bcffcd44",
+                  "stop": 1751600990450
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "name": "page",
+              "start": 1751600990223,
+              "uuid": "36faec98-a536-4b14-92c1-e7277f558517",
+              "stop": 1751600990450
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Navigate to \"/client\"",
+              "start": 1751600990450,
+              "uuid": "7782f419-e0b1-44e1-933c-5bc1b6c97c2a",
+              "stop": 1751600991969
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Click getByRole('link', { name: 'Register' })",
+              "start": 1751600991970,
+              "uuid": "4ac39ae7-1607-4e7d-b779-695b36693c35",
+              "stop": 1751600992135
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "beforeEach hook",
+          "start": 1751600990200,
+          "uuid": "77be070d-7c32-4bda-b265-c5c702929bb0",
+          "stop": 1751600992135
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1751600990200,
+      "uuid": "2d0b483f-5ece-434d-be99-e0c0f1dd00a4",
+      "stop": 1751600992135
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1751600992136,
+      "name": "Fill \"account\" getByRole('textbox', { name: 'First Name' })",
+      "uuid": "05832607-3e40-4e7f-a794-348018f6966a",
+      "stop": 1751600992143
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1751600992143,
+      "name": "Fill \"name\" getByRole('textbox', { name: 'Last Name' })",
+      "uuid": "c598e7bb-62e3-4e91-b174-b174e3ca4e4e",
+      "stop": 1751600992148
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1751600992149,
+      "name": "Fill \"autoregistration56@yopmail.com\" getByPlaceholder('email@example.com')",
+      "uuid": "ab9e1618-70a5-4bcf-a160-c9a98405f451",
+      "stop": 1751600992153
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1751600992155,
+      "name": "Fill \"1234567890\" getByPlaceholder('enter your number')",
+      "uuid": "6328b65b-db11-4bf8-b6e1-2d6596f66938",
+      "stop": 1751600992159
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1751600992160,
+      "name": "Select option locator('select[formcontrolname=\"occupation\"]')",
+      "uuid": "2260837a-5b50-48a0-8f35-59f3ad9c61fd",
+      "stop": 1751600992167
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1751600992167,
+      "name": "Check getByLabel('Female')",
+      "uuid": "3d2885b5-61dc-4074-b3a6-0000e2b7eac2",
+      "stop": 1751600992201
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1751600992202,
+      "name": "Fill \"Test12345\" locator('#userPassword')",
+      "uuid": "2d9c24db-0a0e-4ebe-8a15-c826b56c63e5",
+      "stop": 1751600992210
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1751600992211,
+      "name": "Fill \"Test12345\" locator('#confirmPassword')",
+      "uuid": "d7e8cc3d-1aa9-4388-af36-e20d3b9d13f9",
+      "stop": 1751600992218
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1751600992219,
+      "name": "Check locator('input[type=\"checkbox\"]')",
+      "uuid": "929ffff8-cf6e-47c8-a506-496a008293d9",
+      "stop": 1751600992254
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1751600992255,
+      "name": "Click getByRole('button', { name: 'Register' })",
+      "uuid": "3a7ac5c4-56b3-4487-90ee-4f05447f1cdc",
+      "stop": 1751600992293
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1751600992297,
+      "name": "toContainText",
+      "uuid": "8cbf6b2d-7d8a-4c78-b625-3bc19fbce9c3",
+      "stop": 1751600992411
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "page",
+          "start": 1751600992414,
+          "uuid": "e21c1297-8745-4de5-9217-38ed4577abcc",
+          "stop": 1751600992414
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "context",
+          "start": 1751600992414,
+          "uuid": "90d7227b-4d90-41c9-be61-bc12a8fe67be",
+          "stop": 1751600992414
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1751600992412,
+      "uuid": "ce0b8543-1581-4122-a247-fac794c87c29",
+      "stop": 1751600992514
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "registration-flow.spec.ts" },
+    {
+      "name": "titlePath",
+      "value": " > chromium > registration-flow.spec.ts > Registration Flow Validation"
+    },
+    { "name": "host", "value": "DelaRosa.local" },
+    { "name": "thread", "value": "pid-2765-worker-0" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "registration-flow.spec.ts" },
+    { "name": "subSuite", "value": "Registration Flow Validation" }
+  ],
+  "links": [],
+  "start": 1751600990201,
+  "testCaseId": "237b209d526aa2f58bff3125b3db728e",
+  "fullName": "registration-flow.spec.ts:31:7",
+  "titlePath": ["registration-flow.spec.ts", "Registration Flow Validation"],
+  "stop": 1751600992512
+}

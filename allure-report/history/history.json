@@ -1,1 +1,215 @@
-{"9a0e3630f506a13f7b0641832c0bad6c:5bd835b0d6b1d4ada3b9f0db936e82c8":{"statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1},"items":[{"uid":"afa1ee93953c87af","status":"passed","time":{"start":1751603557799,"stop":1751603564392,"duration":6593}}]},"237b209d526aa2f58bff3125b3db728e:5bd835b0d6b1d4ada3b9f0db936e82c8":{"statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1},"items":[{"uid":"a2f215131f615329","status":"passed","time":{"start":1751603568892,"stop":1751603571111,"duration":2219}}]},"1b5787bd5d84e53f18b5a0d048b0d235:5bd835b0d6b1d4ada3b9f0db936e82c8":{"statistic":{"failed":1,"broken":0,"skipped":0,"passed":0,"unknown":0,"total":1},"items":[{"uid":"172d46c84927ac0","status":"failed","statusDetails":"Error: Timed out 5000ms waiting for expect(locator).toHaveText(expected)\n\nLocator: locator('#toast-container')\nExpected string: \"Login Successfully\"\nReceived string: \"\"\nCall log:\n  - Expect \"toHaveText\" with timeout 5000ms\n  - waiting for locator('#toast-container')\n    3 × locator resolved to <div id=\"toast-container\" class=\"toast-bottom-right toast-container\">…</div>\n      - unexpected value \" Incorrect email or password. \"\n    4 × locator resolved to <div id=\"toast-container\" class=\"toast-bottom-right toast-container\"></div>\n      - unexpected value \"\"\n","time":{"start":1751603557784,"stop":1751603566021,"duration":8237}}]},"6a916aa006cf495c3ea2e98a51c98eb5:5bd835b0d6b1d4ada3b9f0db936e82c8":{"statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1},"items":[{"uid":"9c3372bf862bdca5","status":"passed","time":{"start":1751603565485,"stop":1751603572130,"duration":6645}}]},"1e7e8fb505c7f3cc72510a0692e60e4a:5bd835b0d6b1d4ada3b9f0db936e82c8":{"statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1},"items":[{"uid":"d4c4fe4f378bd2e6","status":"passed","time":{"start":1751603557786,"stop":1751603561419,"duration":3633}}]},"cedf20b521228468b969cbe1f64ac7a2:5bd835b0d6b1d4ada3b9f0db936e82c8":{"statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1},"items":[{"uid":"f71cf328ab0fb475","status":"passed","time":{"start":1751603567670,"stop":1751603573642,"duration":5972}}]},"99f4910b069431d7ff36759b44d385e6:5bd835b0d6b1d4ada3b9f0db936e82c8":{"statistic":{"failed":1,"broken":0,"skipped":0,"passed":0,"unknown":0,"total":1},"items":[{"uid":"39abbed5650f777d","status":"failed","statusDetails":"Error: Timed out 5000ms waiting for expect(locator).toContainText(expected)\n\nLocator: locator('#toast-container')\nExpected string: \"already\"\nReceived string: \"\"\nCall log:\n  - Expect \"toContainText\" with timeout 5000ms\n  - waiting for locator('#toast-container')\n    2 × locator resolved to <div id=\"toast-container\" class=\"toast-bottom-right toast-container\">…</div>\n      - unexpected value \" Registered Successfully \"\n    4 × locator resolved to <div id=\"toast-container\" class=\"toast-bottom-right toast-container\"></div>\n      - unexpected value \"\"\n","time":{"start":1751603571111,"stop":1751603578224,"duration":7113}}]},"6beebb69cc0f3e0e6ac9d80c1138b288:5bd835b0d6b1d4ada3b9f0db936e82c8":{"statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1},"items":[{"uid":"504632804317ceba","status":"passed","time":{"start":1751603562574,"stop":1751603565805,"duration":3231}}]},"67f9e421fb80829f974814a9e3a2396a:5bd835b0d6b1d4ada3b9f0db936e82c8":{"statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1},"items":[{"uid":"ddbe12b3376d1cee","status":"passed","time":{"start":1751603566315,"stop":1751603568884,"duration":2569}}]},"298bcdd849d153d5e15bf0049569a85a:5bd835b0d6b1d4ada3b9f0db936e82c8":{"statistic":{"failed":1,"broken":0,"skipped":0,"passed":0,"unknown":0,"total":1},"items":[{"uid":"dc870a8fc6494138","status":"failed","statusDetails":"Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"email2@yopmail.com\"\nReceived: \"email1@yopmail.com\"","time":{"start":1751603557785,"stop":1751603565898,"duration":8113}}]}}
+{
+  "9a0e3630f506a13f7b0641832c0bad6c:5bd835b0d6b1d4ada3b9f0db936e82c8": {
+    "statistic": {
+      "failed": 0,
+      "broken": 0,
+      "skipped": 0,
+      "passed": 1,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "afa1ee93953c87af",
+        "status": "passed",
+        "time": {
+          "start": 1751603557799,
+          "stop": 1751603564392,
+          "duration": 6593
+        }
+      }
+    ]
+  },
+  "237b209d526aa2f58bff3125b3db728e:5bd835b0d6b1d4ada3b9f0db936e82c8": {
+    "statistic": {
+      "failed": 0,
+      "broken": 0,
+      "skipped": 0,
+      "passed": 1,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "a2f215131f615329",
+        "status": "passed",
+        "time": {
+          "start": 1751603568892,
+          "stop": 1751603571111,
+          "duration": 2219
+        }
+      }
+    ]
+  },
+  "1b5787bd5d84e53f18b5a0d048b0d235:5bd835b0d6b1d4ada3b9f0db936e82c8": {
+    "statistic": {
+      "failed": 1,
+      "broken": 0,
+      "skipped": 0,
+      "passed": 0,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "172d46c84927ac0",
+        "status": "failed",
+        "statusDetails": "Error: Timed out 5000ms waiting for expect(locator).toHaveText(expected)\n\nLocator: locator('#toast-container')\nExpected string: \"Login Successfully\"\nReceived string: \"\"\nCall log:\n  - Expect \"toHaveText\" with timeout 5000ms\n  - waiting for locator('#toast-container')\n    3 × locator resolved to <div id=\"toast-container\" class=\"toast-bottom-right toast-container\">…</div>\n      - unexpected value \" Incorrect email or password. \"\n    4 × locator resolved to <div id=\"toast-container\" class=\"toast-bottom-right toast-container\"></div>\n      - unexpected value \"\"\n",
+        "time": {
+          "start": 1751603557784,
+          "stop": 1751603566021,
+          "duration": 8237
+        }
+      }
+    ]
+  },
+  "6a916aa006cf495c3ea2e98a51c98eb5:5bd835b0d6b1d4ada3b9f0db936e82c8": {
+    "statistic": {
+      "failed": 0,
+      "broken": 0,
+      "skipped": 0,
+      "passed": 1,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "9c3372bf862bdca5",
+        "status": "passed",
+        "time": {
+          "start": 1751603565485,
+          "stop": 1751603572130,
+          "duration": 6645
+        }
+      }
+    ]
+  },
+  "1e7e8fb505c7f3cc72510a0692e60e4a:5bd835b0d6b1d4ada3b9f0db936e82c8": {
+    "statistic": {
+      "failed": 0,
+      "broken": 0,
+      "skipped": 0,
+      "passed": 1,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "d4c4fe4f378bd2e6",
+        "status": "passed",
+        "time": {
+          "start": 1751603557786,
+          "stop": 1751603561419,
+          "duration": 3633
+        }
+      }
+    ]
+  },
+  "cedf20b521228468b969cbe1f64ac7a2:5bd835b0d6b1d4ada3b9f0db936e82c8": {
+    "statistic": {
+      "failed": 0,
+      "broken": 0,
+      "skipped": 0,
+      "passed": 1,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "f71cf328ab0fb475",
+        "status": "passed",
+        "time": {
+          "start": 1751603567670,
+          "stop": 1751603573642,
+          "duration": 5972
+        }
+      }
+    ]
+  },
+  "99f4910b069431d7ff36759b44d385e6:5bd835b0d6b1d4ada3b9f0db936e82c8": {
+    "statistic": {
+      "failed": 1,
+      "broken": 0,
+      "skipped": 0,
+      "passed": 0,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "39abbed5650f777d",
+        "status": "failed",
+        "statusDetails": "Error: Timed out 5000ms waiting for expect(locator).toContainText(expected)\n\nLocator: locator('#toast-container')\nExpected string: \"already\"\nReceived string: \"\"\nCall log:\n  - Expect \"toContainText\" with timeout 5000ms\n  - waiting for locator('#toast-container')\n    2 × locator resolved to <div id=\"toast-container\" class=\"toast-bottom-right toast-container\">…</div>\n      - unexpected value \" Registered Successfully \"\n    4 × locator resolved to <div id=\"toast-container\" class=\"toast-bottom-right toast-container\"></div>\n      - unexpected value \"\"\n",
+        "time": {
+          "start": 1751603571111,
+          "stop": 1751603578224,
+          "duration": 7113
+        }
+      }
+    ]
+  },
+  "6beebb69cc0f3e0e6ac9d80c1138b288:5bd835b0d6b1d4ada3b9f0db936e82c8": {
+    "statistic": {
+      "failed": 0,
+      "broken": 0,
+      "skipped": 0,
+      "passed": 1,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "504632804317ceba",
+        "status": "passed",
+        "time": {
+          "start": 1751603562574,
+          "stop": 1751603565805,
+          "duration": 3231
+        }
+      }
+    ]
+  },
+  "67f9e421fb80829f974814a9e3a2396a:5bd835b0d6b1d4ada3b9f0db936e82c8": {
+    "statistic": {
+      "failed": 0,
+      "broken": 0,
+      "skipped": 0,
+      "passed": 1,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "ddbe12b3376d1cee",
+        "status": "passed",
+        "time": {
+          "start": 1751603566315,
+          "stop": 1751603568884,
+          "duration": 2569
+        }
+      }
+    ]
+  },
+  "298bcdd849d153d5e15bf0049569a85a:5bd835b0d6b1d4ada3b9f0db936e82c8": {
+    "statistic": {
+      "failed": 1,
+      "broken": 0,
+      "skipped": 0,
+      "passed": 0,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "dc870a8fc6494138",
+        "status": "failed",
+        "statusDetails": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"email2@yopmail.com\"\nReceived: \"email1@yopmail.com\"",
+        "time": {
+          "start": 1751603557785,
+          "stop": 1751603565898,
+          "duration": 8113
+        }
+      }
+    ]
+  }
+}

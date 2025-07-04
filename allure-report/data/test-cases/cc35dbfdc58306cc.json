@@ -1,1 +1,413 @@
-{"uid":"cc35dbfdc58306cc","name":"View order created by different account from the respective account should return 403","fullName":"order-flow.spec.ts:118:9","historyId":"6beebb69cc0f3e0e6ac9d80c1138b288:5bd835b0d6b1d4ada3b9f0db936e82c8","time":{"start":1751602902463,"stop":1751602904815,"duration":2352},"status":"passed","flaky":false,"newFailed":false,"newBroken":false,"newPassed":false,"retriesCount":0,"retriesStatusChange":false,"beforeStages":[],"testStage":{"status":"passed","steps":[{"name":"Before Hooks","time":{"start":1751602902459,"stop":1751602905659,"duration":3200},"status":"passed","steps":[{"name":"beforeAll hook","time":{"start":1751602902459,"stop":1751602903809,"duration":1350},"status":"passed","steps":[{"name":"Create request context","time":{"start":1751602902461,"stop":1751602902462,"duration":1},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"POST \"/api/ecom/auth/login\"","time":{"start":1751602902463,"stop":1751602903807,"duration":1344},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false}],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":2,"attachmentsCount":0,"hasContent":true,"attachmentStep":false},{"name":"beforeEach hook","time":{"start":1751602903809,"stop":1751602905658,"duration":1849},"status":"passed","steps":[{"name":"context","time":{"start":1751602903809,"stop":1751602903814,"duration":5},"status":"passed","steps":[{"name":"Create context","time":{"start":1751602903810,"stop":1751602903814,"duration":4},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false}],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":1,"attachmentsCount":0,"hasContent":true,"attachmentStep":false},{"name":"page","time":{"start":1751602903814,"stop":1751602904139,"duration":325},"status":"passed","steps":[{"name":"Create page","time":{"start":1751602903815,"stop":1751602904138,"duration":323},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false}],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":1,"attachmentsCount":0,"hasContent":true,"attachmentStep":false},{"name":"addInitScript","time":{"start":1751602904140,"stop":1751602904145,"duration":5},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"Navigate to \"/client\"","time":{"start":1751602904157,"stop":1751602905658,"duration":1501},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false}],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":6,"attachmentsCount":0,"hasContent":true,"attachmentStep":false}],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":10,"attachmentsCount":0,"hasContent":true,"attachmentStep":false},{"name":"Create request context","time":{"start":1751602905660,"stop":1751602905661,"duration":1},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"POST \"/api/ecom/auth/login\"","time":{"start":1751602905662,"stop":1751602905834,"duration":172},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"Create request context","time":{"start":1751602905836,"stop":1751602905837,"duration":1},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"POST \"/api/ecom/order/create-order\"","time":{"start":1751602905838,"stop":1751602905939,"duration":101},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"Create request context","time":{"start":1751602905940,"stop":1751602905941,"duration":1},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"GET \"/api/ecom/order/get-orders-details?id=686756da129e250258cb1048\"","time":{"start":1751602905942,"stop":1751602906030,"duration":88},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"toBe","time":{"start":1751602906031,"stop":1751602906032,"duration":1},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"After Hooks","time":{"start":1751602906032,"stop":1751602906163,"duration":131},"status":"passed","steps":[{"name":"page","time":{"start":1751602906032,"stop":1751602906032,"duration":0},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"context","time":{"start":1751602906032,"stop":1751602906032,"duration":0},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false}],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":2,"attachmentsCount":0,"hasContent":true,"attachmentStep":false}],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":21,"attachmentsCount":0,"hasContent":true,"attachmentStep":false},"afterStages":[],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"order-flow.spec.ts"},{"name":"titlePath","value":" > chromium > order-flow.spec.ts > Order Flow Validation"},{"name":"host","value":"DelaRosa.local"},{"name":"thread","value":"pid-3532-worker-0"},{"name":"parentSuite","value":"chromium"},{"name":"suite","value":"order-flow.spec.ts"},{"name":"subSuite","value":"Order Flow Validation"},{"name":"resultFormat","value":"allure2"}],"parameters":[{"name":"Project","value":"chromium"}],"links":[],"hidden":true,"retry":true,"extra":{"categories":[],"tags":[]},"source":"cc35dbfdc58306cc.json","parameterValues":["chromium"]}
+{
+  "uid": "cc35dbfdc58306cc",
+  "name": "View order created by different account from the respective account should return 403",
+  "fullName": "order-flow.spec.ts:118:9",
+  "historyId": "6beebb69cc0f3e0e6ac9d80c1138b288:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "time": { "start": 1751602902463, "stop": 1751602904815, "duration": 2352 },
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "testStage": {
+    "status": "passed",
+    "steps": [
+      {
+        "name": "Before Hooks",
+        "time": {
+          "start": 1751602902459,
+          "stop": 1751602905659,
+          "duration": 3200
+        },
+        "status": "passed",
+        "steps": [
+          {
+            "name": "beforeAll hook",
+            "time": {
+              "start": 1751602902459,
+              "stop": 1751602903809,
+              "duration": 1350
+            },
+            "status": "passed",
+            "steps": [
+              {
+                "name": "Create request context",
+                "time": {
+                  "start": 1751602902461,
+                  "stop": 1751602902462,
+                  "duration": 1
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "shouldDisplayMessage": false,
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "hasContent": false,
+                "attachmentStep": false
+              },
+              {
+                "name": "POST \"/api/ecom/auth/login\"",
+                "time": {
+                  "start": 1751602902463,
+                  "stop": 1751602903807,
+                  "duration": 1344
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "shouldDisplayMessage": false,
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "hasContent": false,
+                "attachmentStep": false
+              }
+            ],
+            "attachments": [],
+            "parameters": [],
+            "shouldDisplayMessage": false,
+            "stepsCount": 2,
+            "attachmentsCount": 0,
+            "hasContent": true,
+            "attachmentStep": false
+          },
+          {
+            "name": "beforeEach hook",
+            "time": {
+              "start": 1751602903809,
+              "stop": 1751602905658,
+              "duration": 1849
+            },
+            "status": "passed",
+            "steps": [
+              {
+                "name": "context",
+                "time": {
+                  "start": 1751602903809,
+                  "stop": 1751602903814,
+                  "duration": 5
+                },
+                "status": "passed",
+                "steps": [
+                  {
+                    "name": "Create context",
+                    "time": {
+                      "start": 1751602903810,
+                      "stop": 1751602903814,
+                      "duration": 4
+                    },
+                    "status": "passed",
+                    "steps": [],
+                    "attachments": [],
+                    "parameters": [],
+                    "shouldDisplayMessage": false,
+                    "stepsCount": 0,
+                    "attachmentsCount": 0,
+                    "hasContent": false,
+                    "attachmentStep": false
+                  }
+                ],
+                "attachments": [],
+                "parameters": [],
+                "shouldDisplayMessage": false,
+                "stepsCount": 1,
+                "attachmentsCount": 0,
+                "hasContent": true,
+                "attachmentStep": false
+              },
+              {
+                "name": "page",
+                "time": {
+                  "start": 1751602903814,
+                  "stop": 1751602904139,
+                  "duration": 325
+                },
+                "status": "passed",
+                "steps": [
+                  {
+                    "name": "Create page",
+                    "time": {
+                      "start": 1751602903815,
+                      "stop": 1751602904138,
+                      "duration": 323
+                    },
+                    "status": "passed",
+                    "steps": [],
+                    "attachments": [],
+                    "parameters": [],
+                    "shouldDisplayMessage": false,
+                    "stepsCount": 0,
+                    "attachmentsCount": 0,
+                    "hasContent": false,
+                    "attachmentStep": false
+                  }
+                ],
+                "attachments": [],
+                "parameters": [],
+                "shouldDisplayMessage": false,
+                "stepsCount": 1,
+                "attachmentsCount": 0,
+                "hasContent": true,
+                "attachmentStep": false
+              },
+              {
+                "name": "addInitScript",
+                "time": {
+                  "start": 1751602904140,
+                  "stop": 1751602904145,
+                  "duration": 5
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "shouldDisplayMessage": false,
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "hasContent": false,
+                "attachmentStep": false
+              },
+              {
+                "name": "Navigate to \"/client\"",
+                "time": {
+                  "start": 1751602904157,
+                  "stop": 1751602905658,
+                  "duration": 1501
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "shouldDisplayMessage": false,
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "hasContent": false,
+                "attachmentStep": false
+              }
+            ],
+            "attachments": [],
+            "parameters": [],
+            "shouldDisplayMessage": false,
+            "stepsCount": 6,
+            "attachmentsCount": 0,
+            "hasContent": true,
+            "attachmentStep": false
+          }
+        ],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 10,
+        "attachmentsCount": 0,
+        "hasContent": true,
+        "attachmentStep": false
+      },
+      {
+        "name": "Create request context",
+        "time": {
+          "start": 1751602905660,
+          "stop": 1751602905661,
+          "duration": 1
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "POST \"/api/ecom/auth/login\"",
+        "time": {
+          "start": 1751602905662,
+          "stop": 1751602905834,
+          "duration": 172
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "Create request context",
+        "time": {
+          "start": 1751602905836,
+          "stop": 1751602905837,
+          "duration": 1
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "POST \"/api/ecom/order/create-order\"",
+        "time": {
+          "start": 1751602905838,
+          "stop": 1751602905939,
+          "duration": 101
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "Create request context",
+        "time": {
+          "start": 1751602905940,
+          "stop": 1751602905941,
+          "duration": 1
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "GET \"/api/ecom/order/get-orders-details?id=686756da129e250258cb1048\"",
+        "time": {
+          "start": 1751602905942,
+          "stop": 1751602906030,
+          "duration": 88
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "toBe",
+        "time": {
+          "start": 1751602906031,
+          "stop": 1751602906032,
+          "duration": 1
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "After Hooks",
+        "time": {
+          "start": 1751602906032,
+          "stop": 1751602906163,
+          "duration": 131
+        },
+        "status": "passed",
+        "steps": [
+          {
+            "name": "page",
+            "time": {
+              "start": 1751602906032,
+              "stop": 1751602906032,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "hasContent": false,
+            "attachmentStep": false
+          },
+          {
+            "name": "context",
+            "time": {
+              "start": 1751602906032,
+              "stop": 1751602906032,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "hasContent": false,
+            "attachmentStep": false
+          }
+        ],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 2,
+        "attachmentsCount": 0,
+        "hasContent": true,
+        "attachmentStep": false
+      }
+    ],
+    "attachments": [],
+    "parameters": [],
+    "shouldDisplayMessage": false,
+    "stepsCount": 21,
+    "attachmentsCount": 0,
+    "hasContent": true,
+    "attachmentStep": false
+  },
+  "afterStages": [],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "order-flow.spec.ts" },
+    {
+      "name": "titlePath",
+      "value": " > chromium > order-flow.spec.ts > Order Flow Validation"
+    },
+    { "name": "host", "value": "DelaRosa.local" },
+    { "name": "thread", "value": "pid-3532-worker-0" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "order-flow.spec.ts" },
+    { "name": "subSuite", "value": "Order Flow Validation" },
+    { "name": "resultFormat", "value": "allure2" }
+  ],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "links": [],
+  "hidden": true,
+  "retry": true,
+  "extra": { "categories": [], "tags": [] },
+  "source": "cc35dbfdc58306cc.json",
+  "parameterValues": ["chromium"]
+}

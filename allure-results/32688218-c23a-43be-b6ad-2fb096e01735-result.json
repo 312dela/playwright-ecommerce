@@ -1,1 +1,345 @@
-{"uuid":"32688218-c23a-43be-b6ad-2fb096e01735","name":"Create order with different email from the respective account","historyId":"298bcdd849d153d5e15bf0049569a85a:5bd835b0d6b1d4ada3b9f0db936e82c8","status":"broken","statusDetails":{"message":"Test timeout of 30000ms exceeded.","trace":"Test timeout of 30000ms exceeded."},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create request context","start":1751602897693,"uuid":"81864014-a137-4ee1-b093-c86c4b69d84b","stop":1751602897694},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"POST \"/api/ecom/auth/login\"","start":1751602897696,"uuid":"10116c28-1818-41cf-89d4-c6701c421e80","stop":1751602898304}],"attachments":[],"parameters":[],"name":"beforeAll hook","start":1751602897687,"uuid":"7f6a34fb-dfd4-44f0-a05b-5bbca6f0a5d5","stop":1751602898308},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Launch browser","start":1751602898311,"uuid":"dec0e1c8-6ee0-4fca-b351-78d799c6fe21","stop":1751602898875}],"attachments":[],"parameters":[],"name":"browser","start":1751602898310,"uuid":"e9c1a0a9-8197-49b7-b93e-1e0b26c3b9b6","stop":1751602898875},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create context","start":1751602898876,"uuid":"8c9ae38c-6051-4a7e-b66e-d2d87fdb2528","stop":1751602898896}],"attachments":[],"parameters":[],"name":"context","start":1751602898875,"uuid":"923577c6-dca8-4549-bf31-e9b76f27dbd3","stop":1751602898896},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create page","start":1751602898904,"uuid":"e5809161-86f6-4d07-935f-b876077d0b1d","stop":1751602899858}],"attachments":[],"parameters":[],"name":"page","start":1751602898897,"uuid":"1eecc5d8-0461-4e68-8602-4b4b40338773","stop":1751602899860},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"addInitScript","start":1751602899866,"uuid":"917187a0-98af-46e3-81af-de96f62330e7","stop":1751602899876},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Navigate to \"/client\"","start":1751602899878,"uuid":"15361cc2-7c75-4a8d-97db-dca3edb5eca3","stop":1751602901566}],"attachments":[],"parameters":[],"name":"beforeEach hook","start":1751602898309,"uuid":"94da3ed0-b7e4-4406-a24c-1ec06c0cef08","stop":1751602901567}],"attachments":[],"parameters":[],"name":"Before Hooks","start":1751602897687,"uuid":"4258e274-0578-46cc-91ba-2309e9788f00","stop":1751602901568},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751602901583,"name":"Click locator('.card').filter({ hasText: 'ZARA COAT 3' }).locator('button:has-text(\" Add To Cart\")')","uuid":"ec185e3f-9965-4cdf-9de0-7cfa13c84bd4","stop":1751602901650},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751602901651,"name":"Click locator('.card').filter({ hasText: 'IPHONE 13 PRO' }).locator('button:has-text(\" Add To Cart\")')","uuid":"b5078205-d92d-4222-8e16-835216e5a299","stop":1751602903127},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751602903129,"name":"Click locator('button[routerlink=\"/dashboard/cart\"]')","uuid":"cd03357d-241a-4ec3-a45d-709409d4f34c","stop":1751602904656},{"status":"failed","statusDetails":{"message":"Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for locator('button:has-text(\"Checkout\")')\n","trace":"Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for locator('button:has-text(\"Checkout\")')\n\n    at CartPage.clickCheckout (/Users/macbook/Documents/playwright-ecommerce/pages/CartPage.ts:35:35)\n    at /Users/macbook/Documents/playwright-ecommerce/tests/order-flow.spec.ts:84:24"},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751602904658,"name":"Click locator('button:has-text(\"Checkout\")')","uuid":"af01b27f-dc7e-4ac3-8b21-1e08763ffe4a","stop":1751602928990},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"screenshot","source":"0461e9f5-d15a-48d4-acc0-1a83289fd1dc-attachment.png","type":"image/png"}],"parameters":[],"start":1751602929604,"name":"screenshot","stop":1751602929604},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"video","source":"3489c317-f7c9-44ae-9027-9e0ba6e8cd18-attachment.webm","type":"video/webm"}],"parameters":[],"start":1751602929604,"name":"video","stop":1751602929604},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"error-context","source":"18abd701-6485-42d9-ad78-6bad91de0f0d-attachment.md","type":"text/markdown"}],"parameters":[],"start":1751602929605,"name":"error-context","stop":1751602929605},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Screenshot","start":1751602928885,"uuid":"9a1126ae-44dc-47f1-9bfa-7145eea20625","stop":1751602928959},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"page","start":1751602928964,"uuid":"1e46209c-e35c-4161-9c62-cc4898125405","stop":1751602928964},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"context","start":1751602928964,"uuid":"1be12580-d454-406a-9ff9-edba83cf74b0","stop":1751602928964}],"attachments":[],"parameters":[],"name":"After Hooks","start":1751602928882,"uuid":"484c9df7-a61e-4c88-9351-e6f27c12af71","stop":1751602929517}],"attachments":[],"parameters":[{"name":"Project","value":"chromium"}],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"order-flow.spec.ts"},{"name":"titlePath","value":" > chromium > order-flow.spec.ts > Order Flow Validation"},{"name":"host","value":"DelaRosa.local"},{"name":"thread","value":"pid-3532-worker-3"},{"name":"parentSuite","value":"chromium"},{"name":"suite","value":"order-flow.spec.ts"},{"name":"subSuite","value":"Order Flow Validation"}],"links":[],"start":1751602897691,"testCaseId":"298bcdd849d153d5e15bf0049569a85a","fullName":"order-flow.spec.ts:72:9","titlePath":["order-flow.spec.ts","Order Flow Validation"],"stop":1751602928328}
+{
+  "uuid": "32688218-c23a-43be-b6ad-2fb096e01735",
+  "name": "Create order with different email from the respective account",
+  "historyId": "298bcdd849d153d5e15bf0049569a85a:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "broken",
+  "statusDetails": {
+    "message": "Test timeout of 30000ms exceeded.",
+    "trace": "Test timeout of 30000ms exceeded."
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create request context",
+              "start": 1751602897693,
+              "uuid": "81864014-a137-4ee1-b093-c86c4b69d84b",
+              "stop": 1751602897694
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "POST \"/api/ecom/auth/login\"",
+              "start": 1751602897696,
+              "uuid": "10116c28-1818-41cf-89d4-c6701c421e80",
+              "stop": 1751602898304
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "beforeAll hook",
+          "start": 1751602897687,
+          "uuid": "7f6a34fb-dfd4-44f0-a05b-5bbca6f0a5d5",
+          "stop": 1751602898308
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Launch browser",
+                  "start": 1751602898311,
+                  "uuid": "dec0e1c8-6ee0-4fca-b351-78d799c6fe21",
+                  "stop": 1751602898875
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "name": "browser",
+              "start": 1751602898310,
+              "uuid": "e9c1a0a9-8197-49b7-b93e-1e0b26c3b9b6",
+              "stop": 1751602898875
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Create context",
+                  "start": 1751602898876,
+                  "uuid": "8c9ae38c-6051-4a7e-b66e-d2d87fdb2528",
+                  "stop": 1751602898896
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "name": "context",
+              "start": 1751602898875,
+              "uuid": "923577c6-dca8-4549-bf31-e9b76f27dbd3",
+              "stop": 1751602898896
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Create page",
+                  "start": 1751602898904,
+                  "uuid": "e5809161-86f6-4d07-935f-b876077d0b1d",
+                  "stop": 1751602899858
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "name": "page",
+              "start": 1751602898897,
+              "uuid": "1eecc5d8-0461-4e68-8602-4b4b40338773",
+              "stop": 1751602899860
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "addInitScript",
+              "start": 1751602899866,
+              "uuid": "917187a0-98af-46e3-81af-de96f62330e7",
+              "stop": 1751602899876
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Navigate to \"/client\"",
+              "start": 1751602899878,
+              "uuid": "15361cc2-7c75-4a8d-97db-dca3edb5eca3",
+              "stop": 1751602901566
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "beforeEach hook",
+          "start": 1751602898309,
+          "uuid": "94da3ed0-b7e4-4406-a24c-1ec06c0cef08",
+          "stop": 1751602901567
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1751602897687,
+      "uuid": "4258e274-0578-46cc-91ba-2309e9788f00",
+      "stop": 1751602901568
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1751602901583,
+      "name": "Click locator('.card').filter({ hasText: 'ZARA COAT 3' }).locator('button:has-text(\" Add To Cart\")')",
+      "uuid": "ec185e3f-9965-4cdf-9de0-7cfa13c84bd4",
+      "stop": 1751602901650
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1751602901651,
+      "name": "Click locator('.card').filter({ hasText: 'IPHONE 13 PRO' }).locator('button:has-text(\" Add To Cart\")')",
+      "uuid": "b5078205-d92d-4222-8e16-835216e5a299",
+      "stop": 1751602903127
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1751602903129,
+      "name": "Click locator('button[routerlink=\"/dashboard/cart\"]')",
+      "uuid": "cd03357d-241a-4ec3-a45d-709409d4f34c",
+      "stop": 1751602904656
+    },
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for locator('button:has-text(\"Checkout\")')\n",
+        "trace": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for locator('button:has-text(\"Checkout\")')\n\n    at CartPage.clickCheckout (/Users/macbook/Documents/playwright-ecommerce/pages/CartPage.ts:35:35)\n    at /Users/macbook/Documents/playwright-ecommerce/tests/order-flow.spec.ts:84:24"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1751602904658,
+      "name": "Click locator('button:has-text(\"Checkout\")')",
+      "uuid": "af01b27f-dc7e-4ac3-8b21-1e08763ffe4a",
+      "stop": 1751602928990
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "screenshot",
+          "source": "0461e9f5-d15a-48d4-acc0-1a83289fd1dc-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1751602929604,
+      "name": "screenshot",
+      "stop": 1751602929604
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "video",
+          "source": "3489c317-f7c9-44ae-9027-9e0ba6e8cd18-attachment.webm",
+          "type": "video/webm"
+        }
+      ],
+      "parameters": [],
+      "start": 1751602929604,
+      "name": "video",
+      "stop": 1751602929604
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "error-context",
+          "source": "18abd701-6485-42d9-ad78-6bad91de0f0d-attachment.md",
+          "type": "text/markdown"
+        }
+      ],
+      "parameters": [],
+      "start": 1751602929605,
+      "name": "error-context",
+      "stop": 1751602929605
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Screenshot",
+          "start": 1751602928885,
+          "uuid": "9a1126ae-44dc-47f1-9bfa-7145eea20625",
+          "stop": 1751602928959
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "page",
+          "start": 1751602928964,
+          "uuid": "1e46209c-e35c-4161-9c62-cc4898125405",
+          "stop": 1751602928964
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "context",
+          "start": 1751602928964,
+          "uuid": "1be12580-d454-406a-9ff9-edba83cf74b0",
+          "stop": 1751602928964
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1751602928882,
+      "uuid": "484c9df7-a61e-4c88-9351-e6f27c12af71",
+      "stop": 1751602929517
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "order-flow.spec.ts" },
+    {
+      "name": "titlePath",
+      "value": " > chromium > order-flow.spec.ts > Order Flow Validation"
+    },
+    { "name": "host", "value": "DelaRosa.local" },
+    { "name": "thread", "value": "pid-3532-worker-3" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "order-flow.spec.ts" },
+    { "name": "subSuite", "value": "Order Flow Validation" }
+  ],
+  "links": [],
+  "start": 1751602897691,
+  "testCaseId": "298bcdd849d153d5e15bf0049569a85a",
+  "fullName": "order-flow.spec.ts:72:9",
+  "titlePath": ["order-flow.spec.ts", "Order Flow Validation"],
+  "stop": 1751602928328
+}

@@ -1,1 +1,363 @@
-{"uuid":"0b0ffe86-df43-4c6e-8301-84aa0008ae0d","name":"Create order without shipping location provided","historyId":"cedf20b521228468b969cbe1f64ac7a2:5bd835b0d6b1d4ada3b9f0db936e82c8","status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create request context","start":1751602930045,"uuid":"a990a590-2acf-4374-909f-3a9eeba7fd22","stop":1751602930048},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"POST \"/api/ecom/auth/login\"","start":1751602930049,"uuid":"e49d61e5-b6ff-4a01-817b-062ddf9ad189","stop":1751602930421}],"attachments":[],"parameters":[],"name":"beforeAll hook","start":1751602930042,"uuid":"07c08d8d-50b8-4fe7-8d79-8340addd2e13","stop":1751602930426},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Launch browser","start":1751602930432,"uuid":"c9cfb487-bd29-4ba7-b913-ae2022a5e5c6","stop":1751602930858}],"attachments":[],"parameters":[],"name":"browser","start":1751602930430,"uuid":"fb21c56f-50b2-4c80-86ee-e541b1c34c32","stop":1751602930858},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create context","start":1751602930860,"uuid":"cb2d96fd-4e6e-4588-98e8-c62a3f96e061","stop":1751602930871}],"attachments":[],"parameters":[],"name":"context","start":1751602930859,"uuid":"14284210-a8b7-4e5b-9206-483ed7ee0b42","stop":1751602930871},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create page","start":1751602930873,"uuid":"b60491e6-a056-43cd-9cec-9e23468ae352","stop":1751602931310}],"attachments":[],"parameters":[],"name":"page","start":1751602930872,"uuid":"01d980b8-9ce4-4924-b094-e28f2f600517","stop":1751602931310},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"addInitScript","start":1751602931311,"uuid":"dbafa200-18b3-4bbc-81de-d79069ea34dc","stop":1751602931316},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Navigate to \"/client\"","start":1751602931317,"uuid":"d62ffcf6-3c1c-41a7-adb4-7a75c8d6e38b","stop":1751602932960}],"attachments":[],"parameters":[],"name":"beforeEach hook","start":1751602930427,"uuid":"bbba2895-ced7-4189-bc5d-4504238b1c24","stop":1751602932960}],"attachments":[],"parameters":[],"name":"Before Hooks","start":1751602930041,"uuid":"20117146-9d8f-4a31-a790-1f99c0a46ae4","stop":1751602932960},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751602932964,"name":"Click locator('.card').filter({ hasText: 'ZARA COAT 3' }).locator('button:has-text(\" Add To Cart\")')","uuid":"db49d76c-c2d4-4c16-8e3c-1bc5bd217644","stop":1751602933010},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751602933011,"name":"Click locator('.card').filter({ hasText: 'IPHONE 13 PRO' }).locator('button:has-text(\" Add To Cart\")')","uuid":"d3b2a12b-fb9f-49f4-9907-cdb35281ab8a","stop":1751602934474},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751602934475,"name":"Click locator('button[routerlink=\"/dashboard/cart\"]')","uuid":"1608b47c-5b48-4b96-bc65-21dc324f4cca","stop":1751602935976},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751602935977,"name":"Click locator('button:has-text(\"Checkout\")')","uuid":"3e21e24f-f857-4e98-97df-f12e71e089ba","stop":1751602936140},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751602936141,"name":"Fill \"\" locator('.user__name input[type=\"text\"]')","uuid":"8955dfd1-75ab-4425-8c16-5e84709621bd","stop":1751602936150},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751602936150,"name":"Fill \"email2@yopmail.com\" locator('.user__name input[type=\"text\"]')","uuid":"1862840b-be49-443a-9e80-aca16f753003","stop":1751602936153},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751602936154,"name":"Get text content locator('.user__name label')","uuid":"69d477db-07f0-4852-aab8-ce04cd657a3e","stop":1751602936156},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751602936156,"name":"Get input value locator('.user__name input[type=\"text\"]')","uuid":"0fe4b119-e2ea-424e-b6d5-275d391e5c89","stop":1751602936157},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751602936159,"name":"toContain","uuid":"19736d33-48ce-4baf-a35a-98fe6040bd6f","stop":1751602936159},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751602936159,"name":"Click locator('.action__submit')","uuid":"2ce900b0-d57c-44ca-9779-59e50e0a8a8d","stop":1751602937126},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751602937127,"name":"toContainText","uuid":"ebb75893-81b0-48b4-a156-c7eb5883a827","stop":1751602937131},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"page","start":1751602937131,"uuid":"5203faf4-c1c8-4417-b907-fdd74aa21c4c","stop":1751602937131},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"context","start":1751602937131,"uuid":"a2bd5c07-d57f-437d-a145-aef5b17b3263","stop":1751602937131}],"attachments":[],"parameters":[],"name":"After Hooks","start":1751602937131,"uuid":"bb418cdd-d698-4e49-8f2d-cf660a5ff491","stop":1751602937223}],"attachments":[],"parameters":[{"name":"Project","value":"chromium"}],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"order-flow.spec.ts"},{"name":"titlePath","value":" > chromium > order-flow.spec.ts > Order Flow Validation"},{"name":"host","value":"DelaRosa.local"},{"name":"thread","value":"pid-3532-worker-1"},{"name":"parentSuite","value":"chromium"},{"name":"suite","value":"order-flow.spec.ts"},{"name":"subSuite","value":"Order Flow Validation"}],"links":[],"start":1751602930041,"testCaseId":"cedf20b521228468b969cbe1f64ac7a2","fullName":"order-flow.spec.ts:99:9","titlePath":["order-flow.spec.ts","Order Flow Validation"],"stop":1751602936406}
+{
+  "uuid": "0b0ffe86-df43-4c6e-8301-84aa0008ae0d",
+  "name": "Create order without shipping location provided",
+  "historyId": "cedf20b521228468b969cbe1f64ac7a2:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create request context",
+              "start": 1751602930045,
+              "uuid": "a990a590-2acf-4374-909f-3a9eeba7fd22",
+              "stop": 1751602930048
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "POST \"/api/ecom/auth/login\"",
+              "start": 1751602930049,
+              "uuid": "e49d61e5-b6ff-4a01-817b-062ddf9ad189",
+              "stop": 1751602930421
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "beforeAll hook",
+          "start": 1751602930042,
+          "uuid": "07c08d8d-50b8-4fe7-8d79-8340addd2e13",
+          "stop": 1751602930426
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Launch browser",
+                  "start": 1751602930432,
+                  "uuid": "c9cfb487-bd29-4ba7-b913-ae2022a5e5c6",
+                  "stop": 1751602930858
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "name": "browser",
+              "start": 1751602930430,
+              "uuid": "fb21c56f-50b2-4c80-86ee-e541b1c34c32",
+              "stop": 1751602930858
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Create context",
+                  "start": 1751602930860,
+                  "uuid": "cb2d96fd-4e6e-4588-98e8-c62a3f96e061",
+                  "stop": 1751602930871
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "name": "context",
+              "start": 1751602930859,
+              "uuid": "14284210-a8b7-4e5b-9206-483ed7ee0b42",
+              "stop": 1751602930871
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Create page",
+                  "start": 1751602930873,
+                  "uuid": "b60491e6-a056-43cd-9cec-9e23468ae352",
+                  "stop": 1751602931310
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "name": "page",
+              "start": 1751602930872,
+              "uuid": "01d980b8-9ce4-4924-b094-e28f2f600517",
+              "stop": 1751602931310
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "addInitScript",
+              "start": 1751602931311,
+              "uuid": "dbafa200-18b3-4bbc-81de-d79069ea34dc",
+              "stop": 1751602931316
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Navigate to \"/client\"",
+              "start": 1751602931317,
+              "uuid": "d62ffcf6-3c1c-41a7-adb4-7a75c8d6e38b",
+              "stop": 1751602932960
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "beforeEach hook",
+          "start": 1751602930427,
+          "uuid": "bbba2895-ced7-4189-bc5d-4504238b1c24",
+          "stop": 1751602932960
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1751602930041,
+      "uuid": "20117146-9d8f-4a31-a790-1f99c0a46ae4",
+      "stop": 1751602932960
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1751602932964,
+      "name": "Click locator('.card').filter({ hasText: 'ZARA COAT 3' }).locator('button:has-text(\" Add To Cart\")')",
+      "uuid": "db49d76c-c2d4-4c16-8e3c-1bc5bd217644",
+      "stop": 1751602933010
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1751602933011,
+      "name": "Click locator('.card').filter({ hasText: 'IPHONE 13 PRO' }).locator('button:has-text(\" Add To Cart\")')",
+      "uuid": "d3b2a12b-fb9f-49f4-9907-cdb35281ab8a",
+      "stop": 1751602934474
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1751602934475,
+      "name": "Click locator('button[routerlink=\"/dashboard/cart\"]')",
+      "uuid": "1608b47c-5b48-4b96-bc65-21dc324f4cca",
+      "stop": 1751602935976
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1751602935977,
+      "name": "Click locator('button:has-text(\"Checkout\")')",
+      "uuid": "3e21e24f-f857-4e98-97df-f12e71e089ba",
+      "stop": 1751602936140
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1751602936141,
+      "name": "Fill \"\" locator('.user__name input[type=\"text\"]')",
+      "uuid": "8955dfd1-75ab-4425-8c16-5e84709621bd",
+      "stop": 1751602936150
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1751602936150,
+      "name": "Fill \"email2@yopmail.com\" locator('.user__name input[type=\"text\"]')",
+      "uuid": "1862840b-be49-443a-9e80-aca16f753003",
+      "stop": 1751602936153
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1751602936154,
+      "name": "Get text content locator('.user__name label')",
+      "uuid": "69d477db-07f0-4852-aab8-ce04cd657a3e",
+      "stop": 1751602936156
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1751602936156,
+      "name": "Get input value locator('.user__name input[type=\"text\"]')",
+      "uuid": "0fe4b119-e2ea-424e-b6d5-275d391e5c89",
+      "stop": 1751602936157
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1751602936159,
+      "name": "toContain",
+      "uuid": "19736d33-48ce-4baf-a35a-98fe6040bd6f",
+      "stop": 1751602936159
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1751602936159,
+      "name": "Click locator('.action__submit')",
+      "uuid": "2ce900b0-d57c-44ca-9779-59e50e0a8a8d",
+      "stop": 1751602937126
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1751602937127,
+      "name": "toContainText",
+      "uuid": "ebb75893-81b0-48b4-a156-c7eb5883a827",
+      "stop": 1751602937131
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "page",
+          "start": 1751602937131,
+          "uuid": "5203faf4-c1c8-4417-b907-fdd74aa21c4c",
+          "stop": 1751602937131
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "context",
+          "start": 1751602937131,
+          "uuid": "a2bd5c07-d57f-437d-a145-aef5b17b3263",
+          "stop": 1751602937131
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1751602937131,
+      "uuid": "bb418cdd-d698-4e49-8f2d-cf660a5ff491",
+      "stop": 1751602937223
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "order-flow.spec.ts" },
+    {
+      "name": "titlePath",
+      "value": " > chromium > order-flow.spec.ts > Order Flow Validation"
+    },
+    { "name": "host", "value": "DelaRosa.local" },
+    { "name": "thread", "value": "pid-3532-worker-1" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "order-flow.spec.ts" },
+    { "name": "subSuite", "value": "Order Flow Validation" }
+  ],
+  "links": [],
+  "start": 1751602930041,
+  "testCaseId": "cedf20b521228468b969cbe1f64ac7a2",
+  "fullName": "order-flow.spec.ts:99:9",
+  "titlePath": ["order-flow.spec.ts", "Order Flow Validation"],
+  "stop": 1751602936406
+}

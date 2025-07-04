@@ -23,14 +23,11 @@ export default defineConfig({
   workers: process.env.CI ? 1 : undefined,
   timeout: 30 * 1000, // for every test cases
   expect: {
-    timeout: 5000 // for every expect assertion
+    timeout: 5000, // for every expect assertion
   },
 
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: [
-    ['list'],
-    ['allure-playwright']
-  ],
+  reporter: [['list'], ['allure-playwright']],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */
@@ -48,7 +45,7 @@ export default defineConfig({
         ...devices['Desktop Chrome'],
         headless: true,
         screenshot: 'only-on-failure',
-        video: 'retain-on-failure'
+        video: 'retain-on-failure',
       },
     },
 

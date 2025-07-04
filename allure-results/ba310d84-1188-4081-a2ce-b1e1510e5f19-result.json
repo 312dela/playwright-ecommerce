@@ -1,1 +1,231 @@
-{"uuid":"ba310d84-1188-4081-a2ce-b1e1510e5f19","name":"Login using registered email email1@yopmail.com","historyId":"1e7e8fb505c7f3cc72510a0692e60e4a:5bd835b0d6b1d4ada3b9f0db936e82c8","status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Launch browser","start":1751603557789,"uuid":"097674d0-85c2-4931-ae06-e747abe158c7","stop":1751603558881}],"attachments":[],"parameters":[],"name":"browser","start":1751603557786,"uuid":"44691600-f9ce-4531-9302-4ca058655b57","stop":1751603558883},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create context","start":1751603558887,"uuid":"5a2e8b3f-8af6-4071-a13a-b86f95c9e1e0","stop":1751603558897}],"attachments":[],"parameters":[],"name":"context","start":1751603558885,"uuid":"ed3d125c-6f3b-4eac-b451-b444c7163d0e","stop":1751603558898},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create page","start":1751603558899,"uuid":"49647a2b-bb12-4374-b64a-08ebbd3c2467","stop":1751603559694}],"attachments":[],"parameters":[],"name":"page","start":1751603558898,"uuid":"0205e822-decd-4d4b-b7ea-9df466a30caf","stop":1751603559694},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Navigate to \"/client\"","start":1751603559701,"uuid":"785a35db-1e59-4035-8d09-674242cebddc","stop":1751603561553}],"attachments":[],"parameters":[],"name":"beforeEach hook","start":1751603557783,"uuid":"2706beea-a564-4828-89f0-8f6818da8d84","stop":1751603561555}],"attachments":[],"parameters":[],"name":"Before Hooks","start":1751603557782,"uuid":"7a79bc26-f87b-4a16-92bf-e946993ae167","stop":1751603561556},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751603561560,"name":"Fill \"email1@yopmail.com\" getByPlaceholder('email@example.com')","uuid":"e3dbe508-cbe6-456c-84c4-d05afc7d8a8e","stop":1751603561758},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751603561761,"name":"Fill \"Test12345\" getByPlaceholder('enter your passsword')","uuid":"d60a37c0-3c87-477c-b89d-cb8e766c35f7","stop":1751603561893},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751603561899,"name":"Click getByRole('button', { name: 'Login' })","uuid":"49b7a99d-3ae1-4873-b2a7-5ce7aa197100","stop":1751603561962},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751603561965,"name":"toHaveText","uuid":"72a2215a-3dca-4626-9c53-a2c6bb7a4475","stop":1751603562342},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"page","start":1751603562344,"uuid":"9e7b0b21-135e-43e7-af25-1d14f16d191d","stop":1751603562344},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"context","start":1751603562344,"uuid":"630470ac-a015-411e-8b46-3986e2839824","stop":1751603562344}],"attachments":[],"parameters":[],"name":"After Hooks","start":1751603562343,"uuid":"896a66dc-945a-4f7b-819d-1ee232e8f0d5","stop":1751603562520}],"attachments":[],"parameters":[{"name":"Project","value":"chromium"}],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"login-flow.spec.ts"},{"name":"titlePath","value":" > chromium > login-flow.spec.ts > Login Flow Validation"},{"name":"tag","value":"yopmail.com"},{"name":"host","value":"DelaRosa.local"},{"name":"thread","value":"pid-4352-worker-0"},{"name":"parentSuite","value":"chromium"},{"name":"suite","value":"login-flow.spec.ts"},{"name":"subSuite","value":"Login Flow Validation"}],"links":[],"start":1751603557786,"testCaseId":"1e7e8fb505c7f3cc72510a0692e60e4a","fullName":"login-flow.spec.ts:15:9","titlePath":["login-flow.spec.ts","Login Flow Validation"],"stop":1751603561419}
+{
+  "uuid": "ba310d84-1188-4081-a2ce-b1e1510e5f19",
+  "name": "Login using registered email email1@yopmail.com",
+  "historyId": "1e7e8fb505c7f3cc72510a0692e60e4a:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Launch browser",
+                  "start": 1751603557789,
+                  "uuid": "097674d0-85c2-4931-ae06-e747abe158c7",
+                  "stop": 1751603558881
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "name": "browser",
+              "start": 1751603557786,
+              "uuid": "44691600-f9ce-4531-9302-4ca058655b57",
+              "stop": 1751603558883
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Create context",
+                  "start": 1751603558887,
+                  "uuid": "5a2e8b3f-8af6-4071-a13a-b86f95c9e1e0",
+                  "stop": 1751603558897
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "name": "context",
+              "start": 1751603558885,
+              "uuid": "ed3d125c-6f3b-4eac-b451-b444c7163d0e",
+              "stop": 1751603558898
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Create page",
+                  "start": 1751603558899,
+                  "uuid": "49647a2b-bb12-4374-b64a-08ebbd3c2467",
+                  "stop": 1751603559694
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "name": "page",
+              "start": 1751603558898,
+              "uuid": "0205e822-decd-4d4b-b7ea-9df466a30caf",
+              "stop": 1751603559694
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Navigate to \"/client\"",
+              "start": 1751603559701,
+              "uuid": "785a35db-1e59-4035-8d09-674242cebddc",
+              "stop": 1751603561553
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "beforeEach hook",
+          "start": 1751603557783,
+          "uuid": "2706beea-a564-4828-89f0-8f6818da8d84",
+          "stop": 1751603561555
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1751603557782,
+      "uuid": "7a79bc26-f87b-4a16-92bf-e946993ae167",
+      "stop": 1751603561556
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1751603561560,
+      "name": "Fill \"email1@yopmail.com\" getByPlaceholder('email@example.com')",
+      "uuid": "e3dbe508-cbe6-456c-84c4-d05afc7d8a8e",
+      "stop": 1751603561758
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1751603561761,
+      "name": "Fill \"Test12345\" getByPlaceholder('enter your passsword')",
+      "uuid": "d60a37c0-3c87-477c-b89d-cb8e766c35f7",
+      "stop": 1751603561893
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1751603561899,
+      "name": "Click getByRole('button', { name: 'Login' })",
+      "uuid": "49b7a99d-3ae1-4873-b2a7-5ce7aa197100",
+      "stop": 1751603561962
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1751603561965,
+      "name": "toHaveText",
+      "uuid": "72a2215a-3dca-4626-9c53-a2c6bb7a4475",
+      "stop": 1751603562342
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "page",
+          "start": 1751603562344,
+          "uuid": "9e7b0b21-135e-43e7-af25-1d14f16d191d",
+          "stop": 1751603562344
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "context",
+          "start": 1751603562344,
+          "uuid": "630470ac-a015-411e-8b46-3986e2839824",
+          "stop": 1751603562344
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1751603562343,
+      "uuid": "896a66dc-945a-4f7b-819d-1ee232e8f0d5",
+      "stop": 1751603562520
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "login-flow.spec.ts" },
+    {
+      "name": "titlePath",
+      "value": " > chromium > login-flow.spec.ts > Login Flow Validation"
+    },
+    { "name": "tag", "value": "yopmail.com" },
+    { "name": "host", "value": "DelaRosa.local" },
+    { "name": "thread", "value": "pid-4352-worker-0" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "login-flow.spec.ts" },
+    { "name": "subSuite", "value": "Login Flow Validation" }
+  ],
+  "links": [],
+  "start": 1751603557786,
+  "testCaseId": "1e7e8fb505c7f3cc72510a0692e60e4a",
+  "fullName": "login-flow.spec.ts:15:9",
+  "titlePath": ["login-flow.spec.ts", "Login Flow Validation"],
+  "stop": 1751603561419
+}

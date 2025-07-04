@@ -1,1 +1,290 @@
-{"uuid":"c8542fca-5977-49c4-96a7-e52ade63b083","name":"View order created by different account from the respective account should return 403","historyId":"6beebb69cc0f3e0e6ac9d80c1138b288:5bd835b0d6b1d4ada3b9f0db936e82c8","status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create request context","start":1751602902461,"uuid":"ed19dfaa-4a3c-4896-ba99-642d7dbb7f18","stop":1751602902462},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"POST \"/api/ecom/auth/login\"","start":1751602902463,"uuid":"edfdae93-220a-4b9d-b36b-41079a1aca4b","stop":1751602903807}],"attachments":[],"parameters":[],"name":"beforeAll hook","start":1751602902459,"uuid":"18ec794c-87c5-487d-a067-993d21efeeb5","stop":1751602903809},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create context","start":1751602903810,"uuid":"cf1fef0f-4fc6-4648-b185-c76853b53a4e","stop":1751602903814}],"attachments":[],"parameters":[],"name":"context","start":1751602903809,"uuid":"875d61c8-ae98-4db0-8b2d-ab41cb7089da","stop":1751602903814},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create page","start":1751602903815,"uuid":"59843ed6-c946-4f20-9902-61debab1e576","stop":1751602904138}],"attachments":[],"parameters":[],"name":"page","start":1751602903814,"uuid":"42a5b17e-f8aa-4be2-8f02-9ab8d4b43d45","stop":1751602904139},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"addInitScript","start":1751602904140,"uuid":"2cf5a850-b418-4ccf-b94d-7d4f99de2428","stop":1751602904145},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Navigate to \"/client\"","start":1751602904157,"uuid":"10642936-7e2b-40b0-b045-f092d88db460","stop":1751602905658}],"attachments":[],"parameters":[],"name":"beforeEach hook","start":1751602903809,"uuid":"b852ddb8-befd-4ddc-ad00-b2eca95897fa","stop":1751602905658}],"attachments":[],"parameters":[],"name":"Before Hooks","start":1751602902459,"uuid":"7765e786-6192-450c-8bca-22eed0ece7df","stop":1751602905659},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751602905660,"name":"Create request context","uuid":"66dc06f5-a05a-4a55-b9a1-c529e05772a3","stop":1751602905661},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751602905662,"name":"POST \"/api/ecom/auth/login\"","uuid":"be0623fa-3c29-4baf-8e61-c57c36e1c820","stop":1751602905834},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751602905836,"name":"Create request context","uuid":"d6f57ec5-74d9-4187-b9ef-9a9012833755","stop":1751602905837},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751602905838,"name":"POST \"/api/ecom/order/create-order\"","uuid":"79a51606-fb26-45e0-bb8a-0c85f75ebdd2","stop":1751602905939},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751602905940,"name":"Create request context","uuid":"75d22e2c-fc9e-4962-b587-2548af982515","stop":1751602905941},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751602905942,"name":"GET \"/api/ecom/order/get-orders-details?id=686756da129e250258cb1048\"","uuid":"eb4c6ad9-5f12-4664-8624-ede56a030c2e","stop":1751602906030},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1751602906031,"name":"toBe","uuid":"be0f1985-d5ef-48c9-b9e3-7e63929d85f1","stop":1751602906032},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"page","start":1751602906032,"uuid":"a5eb76d8-2ddd-402e-83b5-fc8acaa064ed","stop":1751602906032},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"context","start":1751602906032,"uuid":"73ded714-31ed-423a-b0ea-0879e4684fb8","stop":1751602906032}],"attachments":[],"parameters":[],"name":"After Hooks","start":1751602906032,"uuid":"62126738-897a-43a8-a694-474e74053b79","stop":1751602906163}],"attachments":[],"parameters":[{"name":"Project","value":"chromium"}],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"order-flow.spec.ts"},{"name":"titlePath","value":" > chromium > order-flow.spec.ts > Order Flow Validation"},{"name":"host","value":"DelaRosa.local"},{"name":"thread","value":"pid-3532-worker-0"},{"name":"parentSuite","value":"chromium"},{"name":"suite","value":"order-flow.spec.ts"},{"name":"subSuite","value":"Order Flow Validation"}],"links":[],"start":1751602902463,"testCaseId":"6beebb69cc0f3e0e6ac9d80c1138b288","fullName":"order-flow.spec.ts:118:9","titlePath":["order-flow.spec.ts","Order Flow Validation"],"stop":1751602904815}
+{
+  "uuid": "c8542fca-5977-49c4-96a7-e52ade63b083",
+  "name": "View order created by different account from the respective account should return 403",
+  "historyId": "6beebb69cc0f3e0e6ac9d80c1138b288:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create request context",
+              "start": 1751602902461,
+              "uuid": "ed19dfaa-4a3c-4896-ba99-642d7dbb7f18",
+              "stop": 1751602902462
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "POST \"/api/ecom/auth/login\"",
+              "start": 1751602902463,
+              "uuid": "edfdae93-220a-4b9d-b36b-41079a1aca4b",
+              "stop": 1751602903807
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "beforeAll hook",
+          "start": 1751602902459,
+          "uuid": "18ec794c-87c5-487d-a067-993d21efeeb5",
+          "stop": 1751602903809
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Create context",
+                  "start": 1751602903810,
+                  "uuid": "cf1fef0f-4fc6-4648-b185-c76853b53a4e",
+                  "stop": 1751602903814
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "name": "context",
+              "start": 1751602903809,
+              "uuid": "875d61c8-ae98-4db0-8b2d-ab41cb7089da",
+              "stop": 1751602903814
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Create page",
+                  "start": 1751602903815,
+                  "uuid": "59843ed6-c946-4f20-9902-61debab1e576",
+                  "stop": 1751602904138
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "name": "page",
+              "start": 1751602903814,
+              "uuid": "42a5b17e-f8aa-4be2-8f02-9ab8d4b43d45",
+              "stop": 1751602904139
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "addInitScript",
+              "start": 1751602904140,
+              "uuid": "2cf5a850-b418-4ccf-b94d-7d4f99de2428",
+              "stop": 1751602904145
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Navigate to \"/client\"",
+              "start": 1751602904157,
+              "uuid": "10642936-7e2b-40b0-b045-f092d88db460",
+              "stop": 1751602905658
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "beforeEach hook",
+          "start": 1751602903809,
+          "uuid": "b852ddb8-befd-4ddc-ad00-b2eca95897fa",
+          "stop": 1751602905658
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1751602902459,
+      "uuid": "7765e786-6192-450c-8bca-22eed0ece7df",
+      "stop": 1751602905659
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1751602905660,
+      "name": "Create request context",
+      "uuid": "66dc06f5-a05a-4a55-b9a1-c529e05772a3",
+      "stop": 1751602905661
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1751602905662,
+      "name": "POST \"/api/ecom/auth/login\"",
+      "uuid": "be0623fa-3c29-4baf-8e61-c57c36e1c820",
+      "stop": 1751602905834
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1751602905836,
+      "name": "Create request context",
+      "uuid": "d6f57ec5-74d9-4187-b9ef-9a9012833755",
+      "stop": 1751602905837
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1751602905838,
+      "name": "POST \"/api/ecom/order/create-order\"",
+      "uuid": "79a51606-fb26-45e0-bb8a-0c85f75ebdd2",
+      "stop": 1751602905939
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1751602905940,
+      "name": "Create request context",
+      "uuid": "75d22e2c-fc9e-4962-b587-2548af982515",
+      "stop": 1751602905941
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1751602905942,
+      "name": "GET \"/api/ecom/order/get-orders-details?id=686756da129e250258cb1048\"",
+      "uuid": "eb4c6ad9-5f12-4664-8624-ede56a030c2e",
+      "stop": 1751602906030
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1751602906031,
+      "name": "toBe",
+      "uuid": "be0f1985-d5ef-48c9-b9e3-7e63929d85f1",
+      "stop": 1751602906032
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "page",
+          "start": 1751602906032,
+          "uuid": "a5eb76d8-2ddd-402e-83b5-fc8acaa064ed",
+          "stop": 1751602906032
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "context",
+          "start": 1751602906032,
+          "uuid": "73ded714-31ed-423a-b0ea-0879e4684fb8",
+          "stop": 1751602906032
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1751602906032,
+      "uuid": "62126738-897a-43a8-a694-474e74053b79",
+      "stop": 1751602906163
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "order-flow.spec.ts" },
+    {
+      "name": "titlePath",
+      "value": " > chromium > order-flow.spec.ts > Order Flow Validation"
+    },
+    { "name": "host", "value": "DelaRosa.local" },
+    { "name": "thread", "value": "pid-3532-worker-0" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "order-flow.spec.ts" },
+    { "name": "subSuite", "value": "Order Flow Validation" }
+  ],
+  "links": [],
+  "start": 1751602902463,
+  "testCaseId": "6beebb69cc0f3e0e6ac9d80c1138b288",
+  "fullName": "order-flow.spec.ts:118:9",
+  "titlePath": ["order-flow.spec.ts", "Order Flow Validation"],
+  "stop": 1751602904815
+}
