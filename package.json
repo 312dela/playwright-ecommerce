@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "pretest": "node scripts/cleanup-email-cache.js",
-    "test": "npx playwright test",
+    "test": "node scripts/cleanup-email-cache.js && npx playwright test",
     "allure:generate": "npx allure generate ./allure-results --clean -o ./allure-report",
     "allure:open": "npx allure open ./allure-report",
     "format": "prettier --write ."
