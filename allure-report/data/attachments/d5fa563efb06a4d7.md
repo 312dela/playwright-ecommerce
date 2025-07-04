@@ -1,0 +1,67 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - text: Ecom
+  - link " dummywebsite@rahulshettyacademy.com":
+    - /url: emailto:dummywebsite@rahulshettyacademy.com
+  - link "":
+    - /url: "#"
+  - link "":
+    - /url: "#"
+  - link "":
+    - /url: "#"
+  - link "":
+    - /url: "#"
+- heading "We Make Your Shopping Simple" [level=3]
+- heading "Practice Website for Rahul Shetty Academy Students" [level=1]:
+  - text: Practice Website for
+  - emphasis: Rahul Shetty Academy
+  - text: Students
+- link "Register":
+  - /url: /client/auth/register
+- heading "Register" [level=1]
+- text: First Name
+- textbox "First Name": account
+- text: Last Name
+- textbox "Last Name": name
+- text: Email
+- textbox "email@example.com": autoregistration61@yopmail.com
+- text: Phone Number
+- textbox "enter your number": "1234567890"
+- text: Occupation
+- combobox:
+  - option "Choose your occupation" [disabled]
+  - option "Doctor"
+  - option "Student"
+  - option "Engineer" [selected]
+  - option "Scientist"
+- text: Gender
+- radio "Male"
+- text: Male
+- radio "Female" [checked]
+- text: Female Password
+- textbox "Passsword": Test12345
+- text: Confirm Password
+- textbox "Confirm Password": Test12345
+- checkbox [checked]
+- text: I am 18 year or Older
+- button "Register"
+- paragraph: Already have an account? Login here
+- heading "Why People Choose Us?" [level=1]
+- text: 
+- heading "3546540" [level=1]
+- paragraph: Successfull Orders
+- text: 
+- heading "37653" [level=1]
+- paragraph: Customers
+- text: 
+- heading "3243" [level=1]
+- paragraph: Sellers
+- text: 
+- heading "4500+" [level=1]
+- paragraph: Daily Orders
+- text: 
+- heading "500+" [level=1]
+- paragraph: Daily New Customer Joining
+```

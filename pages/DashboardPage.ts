@@ -16,6 +16,7 @@ export class DashboardPage {
   async addProductToCart(product: string) {
     const productName = this.allProductsCard.filter({ hasText: product });
     await productName.locator('button:has-text(" Add To Cart")').click();
+    await this.dashboardToast.waitFor();
   }
 
   async verifyProductAddedToCart() {
